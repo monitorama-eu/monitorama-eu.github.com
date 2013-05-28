@@ -19,22 +19,285 @@
 
   <body>
     <div class="shell">
-      <div class="splash">
 
-        <section class="eu">
-          <div class="signup">
-            <form>
-              <label for="entry_0">Email:</label>
-              <input type="text" name="entry.0.single" size="30"></input>
-              <input type="hidden" name="pageNumber" value="0"></input>
-              <input type="hidden" name="backupCache" value=""></input>
-              <a class="btn" href="#">Notify me!</a>
-            </form>
-          </div>
-        </section>
+      <header>
+        <ul>
+          <li><a id="welcome" class="active" href="#">Welcome</a></li>
+          <li><a id="cfp" href="#">CFP</a></li>
+          <!--li><a id="speakers" href="#">Speakers</a></li-->
+          <!--li><a id="schedule" href="#">Schedule</a></li-->
+          <!--li><a id="hackathon" href="#">H❤ckathon</a></li-->
+          <li><a id="registration" href="#">Registration</a></li>
+          <li><a id="sponsors" href="#">Sponsors</a></li>
+          <!--li><a id="venue" href="#">Venue</a></li-->
+          <!--li><a id="travel" href="#">Travel</a></li-->
+        </ul>
+      </header>
+
+      <div class="slider">
+        <h1>Monitorama EU</h1>
+        <h2>An Open Source Monitoring Conference &amp; Hackathon - 19. bis 20. September 2013</h2>
+        <h3>Urania, Kleiststraße - Berlin, Germany</h3>
       </div>
 
-      <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+      <!--div class="ribbon">
+        <a id="live" href="#">Watch us Live!</a>
+      </div-->
+
+      <div id="main">
+        <section class="welcome">
+          <h4>Join us in Berlin.</h4>
+          <p>We'll be hearing talks from leading open source developers and web operations luminaries, and then taking what we've learned to apply it towards advancing the state of open source monitoring and trending software.</p>
+
+          <h4>Why me?</h4>
+          <p>Because you care about the tools that you work with. You're an artisan within your team and want to help improve the work environment for you and your peers. We've all heard that monitoring sucks, but you want to do something about it.</p>
+
+          <h4>I'm convinced. What now?</h4>
+          <p>Grab your ticket as soon as soon as registration opens. Be forewarned, space is limited and interest is surging.</p>
+        </section>
+
+        <section class="cfp">
+          <h4>Call for Participation</h4>
+
+          <h5>Coming Soon!</h5>
+        </section>
+
+        <!--section class="speakers">
+          <h4>Meet the Speakers.</h4>
+          <ul></ul>
+        </section-->
+
+        <!--section class="schedule">
+          <h4>Not Your Average Single-Track.</h4>
+          <p>Monitorama takes place 19-20 September, 2013 at Urania Berlin. Thursday is dedicated to single-track sessions that should educate and inspire you for the activities to come. On Friday plan to roll up your sleeves, break out into workshops to level up your artisanal tools (e.g. Logstash filters, D3.js, etc), or jump right into the hackathon and pair up with a team or hack on your own.</p>
+
+          <table>
+            <thead>
+              <tr>
+                <th colspan="3">Thursday</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>08:00-08:45</td>
+                <td colspan="2" class="break">registration & breakfast</td>
+              </tr>
+              <tr class="short">
+                <td>08:45-09:00</td>
+                <td colspan="2" class="special">welcome</td>
+              </tr>
+              <tr>
+                <td>09:00-09:30</td>
+                <td colspan="2" class="keynote">keynote</td>
+              </tr>
+              <tr>
+                <td>09:30-10:00</td>
+                <td colspan="2" class="keynote">keynote</td>
+              </tr>
+              <tr>
+                <td>10:00-10:30</td>
+                <td colspan="2" class="session">session</td>
+              </tr>
+              <tr class="short">
+                <td>10:30-10:45</td>
+                <td colspan="2" class="break">morning break</td>
+              </tr>
+              <tr class="short">
+                <td>10:45-11:00</td>
+                <td colspan="2" class="sponsor-talk">sponsor talks</td>
+              </tr>
+              <tr>
+                <td>11:00-11:30</td>
+                <td colspan="2">session</td>
+              </tr>
+              <tr>
+                <td>11:30-12:00</td>
+                <td colspan="2">session</td>
+              </tr>
+              <tr>
+                <td>12:00-12:30</td>
+                <td colspan="2">session</td>
+              </tr>
+              <tr class="tall">
+                <td>12:30-13:30</td>
+                <td colspan="2" class="break">catered lunch</td>
+              </tr>
+              <tr class="short">
+                <td>13:30-13:45</td>
+                <td colspan="2" class="sponsor-talk">sponsor talks</td>
+              </tr>
+              <tr>
+                <td>13:45-14:15</td>
+                <td colspan="2">session</td>
+              </tr>
+              <tr>
+                <td>14:15-14:45</td>
+                <td colspan="2">session</td>
+              </tr>
+              <tr>
+                <td>14:45-15:15</td>
+                <td colspan="2">session</td>
+              </tr>
+              <tr class="short">
+                <td>15:15-15:30</td>
+                <td colspan="2" class="break">afternoon break</td>
+              </tr>
+              <tr class="short">
+                <td>15:30-15:45</td>
+                <td colspan="2" class="sponsor-talk">sponsor talks</td>
+              </tr>
+              <tr>
+                <td>15:45-16:15</td>
+                <td colspan="2">session</td>
+              </tr>
+              <tr>
+                <td>16:15-16:45</td>
+                <td colspan="2">session</td>
+              </tr>
+              <tr>
+                <td>16:45-17:15</td>
+                <td colspan="2">session</td>
+              </tr>
+              <tr class="tall">
+                <td>19:00-22:00</td>
+                <td colspan="2" class="break">after-party</td>
+              </tr>
+            </tbody>
+            <thead>
+              <tr>
+                <th colspan="3">Friday</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>08:00-08:45</td>
+                <td colspan="2" class="break">registration & breakfast</td>
+              </tr>
+              <tr>
+                <td>08:45-09:15</td>
+                <td colspan="2" class="special">hackathon - kickoff</td>
+              </tr>
+              <tr class="tall">
+                <td>09:15-10:15</td>
+                <td>workshop</td>
+                <td rowspan="3" class="special">hackathon</td>
+              </tr>
+              <tr class="tall">
+                <td>10:15-11:15</td>
+                <td>workshop</td>
+              </tr>
+              <tr class="tall">
+                <td>11:15-12:15</td>
+                <td>workshop</td>
+              </tr>
+              <tr class="tall">
+                <td>12:30-13:30</td>
+                <td colspan="2" class="break">catered lunch</td>
+              </tr>
+              <tr class="tall">
+                <td>13:30-14:30</td>
+                <td>workshop</td>
+                <td rowspan="3" class="special">hackathon</td>
+              </tr>
+              <tr class="tall">
+                <td>14:30-15:30</td>
+                <td>workshop</td>
+              </tr>
+              <tr class="tall">
+                <td>15:30-16:30</td>
+                <td>workshop</td>
+              </tr>
+              <tr class="tall">
+                <td>16:30-18:00</td>
+                <td colspan="2" class="special">lightning talks &amp; awards</td>
+              </tr>
+            </tbody>
+          </table>
+
+        </section-->
+
+        <!--section class="hackathon">
+          <h4>Tips to H<span class="heart">❤</span>ckathon By</h4>
+          <div class="hackathon">
+            <p><strong>Preparation is key.</strong> Have an idea what you want to work on. Know your tools beforehand so you can dive right in.</p>
+            <p><strong>Be flexible.</strong> You might want to go it alone, or decide you want to join a team. Or multiple teams. Or work on multiple tasks by yourself.</p>
+            <p><strong>Adjust your scope.</strong> Understand that you're working within the constraints of a typical workday. We're not going to fix the entire Monitoring toolchain in a single day.</p>
+            <p><strong>There will be distractions.</strong> You're going to be surrounded by a couple hundred like-minded people who want to share their experiences and wisdom (or ask for yours). Bring headphones if you want some &quot;quiet time&quot;.</p>
+            <p><strong>Ask questions.</strong> Enjoy the workshops (but not too many). Be inquisitive but focused.</p>
+            <p><strong>Enjoy the limelight.</strong> We might ask you to present your work(s) in a 5-minute demo. Embrace the opportunity to share your passion with others. We <span class="heart">❤</span> you and want you to succeed.</p>
+            <p><strong>Have fun.</strong> Leave your prejudices at the door. Meet new people and have a great time. We're holding this event to help make things better. You're a part of that now and no one can ever take that away from you.</p>
+          </div>
+        </section-->
+
+        <section class="registration">
+          <h4>Registration Coming Soon</h4>
+
+          <div style="width:100%; text-align:left;">
+            <iframe  src="http://www.eventbrite.com/tickets-external?eid=5769666227&ref=etckt&v=2" frameborder="0" height="168" width="100%" vspace="0" hspace="0" marginheight="5" marginwidth="5" scrolling="auto" allowtransparency="true"></iframe>
+          </div>
+        </section>
+
+        <section class="sponsors">
+          <h4>We Love Our Sponsors.</h4>
+
+          <h5>Coming Soon!</h5>
+          
+          <div class="sponsors">
+
+            <!--div class="sponsor">
+              <a href="https://github.com/" target="_blank"><img src="./images/github_logo.png" /></a>
+              <p>GitHub provides tools to collaboratively develop and host source code. Code review, issue tracking, wikis with ReST, AsciiDoc, and Markdown support -- our goal is to make it easier for you and your team to build great software, whether your team is your co-workers sitting next to you or strangers across the globe. Open source can use GitHub completely for free, making it a great place to discover interesting projects, while businesses can feel safe with our secure private offerings.</p>
+            </div-->
+
+            <!--div class="sponsor">
+              <a href="https://metrics.librato.com/" target="_blank"><img src="./images/librato_logo.png" width="200" /></a>
+              <p>Librato is the creator of Metrics, a cloud-based service that helps businesses monitor all aspects of their operation, be it their cloud or datacenter infrastructure, their applications, their business metrics, or even their sensor network. It is a platform for storing, visualizing, correlating and acting on any and all of the time series data they want to monitor. Whether data is collected with open source collection agents, via language bindings, or via simple scripts, with Metrics all monitoring data is brought together in a unified hosted environment, helping users to see trends, detect signs of problems early, minimize their impact through automated actions, and quickly find and fix their root cause. Its ease of use, and stunning graphs and dashboards make it both easier and more fun to safeguard the availability and performance of any applications.</p>
+            </div-->
+
+            <div class="prospectus">
+              <h4>Want to Be a Sponsor?</h4>
+
+              <h5><img src="./images/gold.png" />Gold Sponsors - $4000 USD</h5>
+              <ul>
+                <li>Five-minute live demonstration or talk in front of all attendees</li>
+                <li>Premier placement on the Monitorama website</li>
+                <li>Logo displayed prominently on event banners</li>
+                <li>Two (2) free attendee passes</li>
+              </ul>
+
+              <h5><img src="./images/silver.png" />Silver Sponsors - $2000 USD</h5>
+              <ul>
+                <li>Company logo and bio on the Monitorama website</li>
+                <li>Logo displayed on event banners</li>
+                <li>One (1) free attendee pass</li>
+              </ul>
+            </div>
+
+            <p>For sponsorship opportunities, or to inquire about custom packages, please <a href="mailto:info@monitorama.eu">email us</a> and we'll be happy to assist you.</p>
+          </div>
+        </section>
+
+        <!--section class="venue">
+        </section-->
+
+        <!--section class="travel">
+        </section-->
+
+        <!--section class="live">
+          <h4>Watch our Live Feed</h4>
+          <p style="text-align: center;"><a href="http://streamtest.fastly.com/hls-live/livepkgr/_definst_/monitorama/monitorama.m3u8">Mobile users click here</a>.</p>
+          <div data-fastly-live="http://streamtest.fastly.com/hds-live/livepkgr/_definst_/monitorama/monitorama.f4m"></div>
+        </section-->
+     </div>
+
+      <footer>
+        <p>Projects by <a href="https://github.com/monitorama-eu">Monitorama EU</a> can be found on <a href="https://github.com">GitHub</a></p>
+        <p>&copy; Copyright 2013 Monitorama LLC</p>
+      </footer>
+
+      <script async src="http://live.fastly.net/live.js"></script>
+      <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+      <script type="text/javascript" src="javascripts/speakers.js"></script>
       <script type="text/javascript" src="javascripts/main.js"></script>
     </div>
     <script type="text/javascript">
