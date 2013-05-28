@@ -53,84 +53,303 @@
   margin: 0;
   padding: 0;
   font-family: "Arvo-Regular", "Bookman Old Style", "Serifa BT", "URW Bookman L", "itc bookman", times, serif;
-  color: #fff;
-}
-
-.splash {
-  background: url(../images/monitorama-bgberlin.jpg) center -175px no-repeat, #000;
-  background-size: 100%;
-}
-
-section.eu {
-  height: 75%;
-  background: url(../images/monitorama-bgclear-eu.png) center no-repeat;
-  background-size: 70%;
-  text-align: center;
-}
-
-.eu div.signup {
-  display: inline-block;
-  width: 40%;
-  padding: 80px 40px;
-  //background-color: rgba(187, 187, 187, 0.6);
-  //border: 5px solid;
-  //border-radius: 15px;
-  margin: 0 auto;
-  margin-top: 28%;
-  font-size: 1.4em;
-}
-
-.eu .signup form input {
-  min-height: 24px;
-  border-radius: 8px;
-  margin: 0 50px 0 8px;
-  padding: 8px;
-  font-size: 0.7em;
   color: #535353;
 }
 
-.eu .signup form label {
-  vertical-align: sub;
+header {
+  height: 50px;
+  background-color: #000;
+  text-align: center;
 }
 
-.eu .signup a.btn {
-  background-color: #fb9e25;
-  box-shadow: inset 0px 1px 0px 0px #fce2c1;
-  -moz-box-shadow: inset 0px 1px 0px 0px #fce2c1;
-  -webkit-box-shadow: inset 0px 1px 0px 0px #fce2c1;
-  border-radius: 6px;
-  -moz-border-radius: 6px;
-  -webkit-border-radius: 6px;
-  border: 1px solid #eeb44f;
+header a {
+  color: #838383;
+}
+
+header a.active {
+  color: #bbb;
+}
+
+header a:hover {
+  color: #bbb;
+}
+
+header ul {
+  list-style-type: none;
+}
+
+header ul li {
   display: inline-block;
-  font-family: arial;
-  padding: 8px 24px;
+  height: 50px;
+  padding: 0 20px;
+}
+
+header ul li a {
+  display: block;
+  margin-top: 17px;
   text-decoration: none;
-  text-shadow: 1px 1px 0px #cc9f52;
+}
+
+.slider {
+  height: 450px;
+  background: url(../images/monitorama-bgclear-eu.png) center no-repeat,
+              url(../images/monitorama-bgberlin.jpg) center -175px no-repeat,
+              #000;
+}
+
+.slider h1 {
+  display: none;
+}
+
+.slider h2 {
+  padding-top: 32px;
+}
+
+.slider h2, .slider h3 {
+  text-align: center;
+  color: rgb(226, 226, 160);
+  text-shadow: 2px 2px #000;
+}
+
+.slider h3 {
+  margin-top: 315px;
+  font-size: 1.3em;
+}
+
+.ribbon {
+  background-color: rgb(223, 116, 0);
+  overflow: hidden;
+  position: absolute;
+  left: -3.2em;
+  top: 2.5em;
+  -moz-transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  box-shadow: 0 0 2em rgba(255, 255, 255, 0.65);
+  -moz-box-shadow: 0 0 2em rgba(255, 255, 255, 0.65);
+  -webkit-box-shadow: 0 0 2em rgba(255, 255, 255, 0.65);
+}
+
+.ribbon a {
+  overflow: hidden;
+  border: 5px solid rgb(255, 133, 0);
   color: #fff;
+  display: block;
+  font: bold 81.25% 'Helvetiva Neue', Helvetica, Arial, sans-serif;
+  margin: 0.05em 0;
+  padding: 0.5em 3.5em;
+  text-align: center;
+  text-decoration: none;
 }
 
-.eu .signup a.btn:hover {
-  background-color: #db7f0f;
+#main {
+  margin: 0 20%;
+  padding: 50px;
+  min-height: 200px;
+  text-align: center;
 }
 
-.eu .signup a.btn:active {
-  position: relative;
-  top: 1px;
+section {
+  display: none;
+  height: 0;
 }
 
-.eu .signup span.success {
-  font-family: "Arvo-Bold";
-  font-size: 2.0em;
-  text-shadow: 5px 5px red;
-  color: yellow;
+section h4 {
+  font-size: 2.4em;
+  margin-bottom: 30px;
 }
 
-.eu img#route {
+section h5 {
+  font-size: 1.6em;
+  margin-bottom: 25px;
+}
+
+section p, section span {
+  text-align: left;
+  font-size: 1.2em;
+  line-height: 1.8em;
+  color: #696969;
+  margin-bottom: 30px;
+}
+
+section p em, section span em {
+  font-family: "Arvo-BoldItalic";
+  margin-right: 4px;
+}
+
+section.welcome {
+  display: block;
+  height: auto;
+}
+
+.speakers ul {
+  list-style-type: none;
+  line-height: 1.3em;
+}
+
+.speakers li {
+  font-size: 1.2em;
+  line-height: 1.8em;
+  text-align: left;
+  padding-bottom: 30px;
+}
+
+.speakers li img {
+  float: left;
+  margin: 0 30px 10px 0;
+}
+
+.speakers li span.name {
+  font-weight: bold;
+  font-size: 1.0em;
+}
+
+.speakers li span.github, .speakers li span.twitter {
+  float: right;
+  margin: 0;
+}
+
+.speakers li span.github a, .speakers li span.twitter a {
+  font-size: 0.6em;
+  text-decoration: none;
+  color: #919191;
+}
+
+.speakers li span.twitter {
+  margin-left: 15px;
+}
+
+.speakers li span.github a:hover, .speakers li span.twitter a:hover {
+  color: green;
+}
+
+.speakers li p.bio {
+  border-top: 1px solid #e4e4d4;
+  margin-top: 10px;
+  padding-top: 10px;
+  font-size: 0.8em;
+}
+
+.schedule table {
+  margin: auto;
+}
+
+.schedule th {
+  padding: 40px 14px 14px 14px;
+}
+
+.schedule tr.tall {
+  height: 6em;
+}
+
+.schedule .short td {
+  padding: 0;
+}
+
+.schedule td {
+  padding: 12px 40px;
+  border: 1px solid rgb(213, 213, 213);
+  font-size: 0.9em;
+  line-height: 1.5em;
+}
+
+.schedule td.break {
+  background-color: rgb(213, 213, 213);
+}
+
+.schedule td.sponsor-talk, .schedule td.special {
+  background-color: rgb(236, 236, 236);
+}
+
+div.hackathon {
+  padding-top: 20px;
+}
+
+.hackathon .heart {
+  color: rgba(255, 0, 0, 0.62);
+}
+
+.hackathon p strong {
+  font-size: 1.2em;
+  color: rgb(34, 141, 14);
+  margin-right: 10px;
+}
+
+div.sponsor {
   margin-bottom: 50px;
 }
 
-.eu img#strava {
-  float: left;
-  margin-right: 45px;
+.sponsor img, .venue img {
+  margin: 20px 0;
+}
+
+.sponsor ul {
+  margin: 0 auto 30px;
+}
+
+.sponsor li {
+  text-align: left;
+  line-height: 1.8em;
+  margin-left: 15%;
+}
+
+div.prospectus {
+  border-top: 1px solid rgb(213, 213, 213);
+  padding-top: 50px;
+  margin-top: 75px;
+}
+
+.prospectus h5 * {
+  vertical-align: middle;
+}
+
+.prospectus img {
+  margin: 0 0 5px 0;
+}
+
+.prospectus ul {
+  list-style-type: none;
+  margin-bottom: 30px;
+}
+
+.prospectus li {
+  font-size: 1.2em;
+  line-height: 1.8em;
+}
+
+.venue img#mcs_nerd {
+  width: 300px;
+}
+
+.travel ul {
+  list-style: none;
+}
+
+.travel li {
+  text-align: left;
+  line-height: 2.0em;
+}
+
+.travel li img {
+  margin-right: 15px;
+}
+
+.travel span.highlight {
+  font-size: 1.0em;
+  color: red;
+}
+
+footer {
+  background: #333;
+  padding: 50px;
+  text-align: center;
+  min-height: 200px;
+}
+
+footer p {
+  color: #ccc;
+  margin-bottom: 20px;
+}
+
+footer p a {
+  color: rgb(226, 226, 160);
 }
