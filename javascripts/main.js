@@ -54,7 +54,7 @@ $('.eu .signup form').on('click', 'a', function() {
 })
 
 // populate speakers
-/* for (var i in speakers) {
+for (var i in speakers) {
   var image = '<img src="http://www.gravatar.com/avatar/' + speakers[i].hash + '" />';
   var name = '<span class="name">' + speakers[i].name + '</span>';
   var github = '';
@@ -67,4 +67,4 @@ $('.eu .signup form').on('click', 'a', function() {
   var bio = '<p class="bio">' + speakers[i].bio + '</p>';
 
   $('section.speakers ul').append('<li class="speaker">' + image + name + twitter + github + bio + '</li>');
-} */
+}
