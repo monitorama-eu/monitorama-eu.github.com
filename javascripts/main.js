@@ -33,19 +33,28 @@ if (window.location.hash.length !== 0) {
   setSection(window.location.hash.replace('#', ''));
 }
 
-// submit notification form
-$('.eu .signup form').on('click', 'a', function() {
-  var data = {};
-  var url = 'https://docs.google.com/a/dixongroup.net/spreadsheet/formResponse?formkey=dE0xdEw2cFVXR05zMlNCQlZYY2RQZGc6MQ&amp;embedded=true&amp;ifq';
-  var inputs = $(this).parent().find('input');
+// submit CFP form
+$('.cfp .signup form').on('click', 'a', function() {
+  var data = {}
+  var url = 'https://docs.google.com/a/dixongroup.net/spreadsheet/formResponse?formkey=dHFfbWZNNC1rRmF0ZWJuUVg2MmFvVFE6MQ&amp;embedded=true&amp;ifq';
+  var inputs = $(this).parent().find('input')
   for (var i=0; i<inputs.length; i++) {
     data[inputs[i].name] = inputs[i].value;
   }
+  var abstract = $(this).parent().find('textarea');
+  data[abstract.attr('name')] = abstract.val();
+  console.log(data);
   $.post(url, data, function(response) {
-    console.log(response);
-    console.log('success!');
-    $('.eu div.signup form').css('display', 'none');
-    $('.eu div.signup').append('<span class="success">We\'ll be in touch!<br />Berlin 2013</span>');
+    // Google Forms is returning 200 on missing inputs so look for it
+    if (response.match(/Looks like you/)) {
+      console.log('failure!');
+      alert('Hmm, something went wrong. Please try again?');
+    } else {
+      console.log('success!');
+      $('.cfp div.signup p').css('display', 'none');
+      $('.cfp div.signup form').css('display', 'none');
+      $('.cfp div.signup').append('<span class="success">Thanks for your submission. We&#39;ll be in touch soon!</span>');
+    }
   }).fail(function() {
     console.log('failure!');
     alert('Hmm, something went wrong. Please try again?');
