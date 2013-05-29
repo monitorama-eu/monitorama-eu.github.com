@@ -56,6 +56,11 @@
   color: #535353;
 }
 
+.emphasis {
+  font-style: italic;
+  font-size: 1.0em;
+}
+
 header {
   height: 50px;
   background-color: #000;
