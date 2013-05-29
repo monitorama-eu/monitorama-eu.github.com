@@ -60,7 +60,38 @@
         <section class="cfp">
           <h4>Call for Participation</h4>
 
-          <h5>Coming Soon!</h5>
+          <div class="signup">
+            <div class="container">
+              <p>All fields with an (&#42;) asterisk are required.</p>
+              <form>
+                <ul>
+                  <li>
+                    <label for="entry_0">&#42; Name:</label><br />
+                    <input type="text" name="entry.0.single"></input>
+                  </li>
+                  <li>
+                    <label for="entry_1">&#42; Email:</label><br />
+                    <input type="text" name="entry.1.single"></input>
+                  </li>
+                  <li>
+                    <label for="entry_2">Twitter (&#64;handle):</label><br />
+                    <input type="text" name="entry.2.single"></input>
+                  </li>
+                  <li>
+                    <label for="entry_3">GitHub (username):</label><br />
+                    <input type="text" name="entry.3.single"></input>
+                  </li>
+                  <li>
+                    <label for="entry_5">&#42; Abstract:</label><br />
+                    <textarea name="entry.5.single" rows="20" cols="60"></textarea>
+                  </li>
+                </ul>
+                <input type="hidden" name="pageNumber" value="0"></input>
+                <input type="hidden" name="backupCache" value=""></input>
+                <a class="btn" href="#">Submit</a>
+              </form>
+            </div>
+          </div>
         </section>
 
         <!--section class="speakers">
