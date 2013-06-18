@@ -391,26 +391,9 @@ div.prospectus {
   line-height: 1.8em;
 }
 
-.venue img#mcs_nerd {
-  width: 300px;
-}
-
-.travel ul {
-  list-style: none;
-}
-
-.travel li {
-  text-align: left;
-  line-height: 2.0em;
-}
-
-.travel li img {
-  margin-right: 15px;
-}
-
-.travel span.highlight {
-  font-size: 1.0em;
-  color: red;
+.venue .directions iframe {
+  text-align: center;
+  margin-top: 40px;
 }
 
 footer {
