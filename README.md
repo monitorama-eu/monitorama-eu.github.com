@@ -2,7 +2,7 @@
 
 ## Dates
 
-* 19. bis 20. September 2013
+* 19.-20. September 2013
 
 ## Venue
 
