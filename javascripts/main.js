@@ -36,7 +36,8 @@ if (window.location.hash.length !== 0) {
 var formHandler = function (url) {
   return function () {
     var data = {}
-    var inputs = $(this).parent().find('input, textarea')
+    var parent = $(this).parent()
+    var inputs = parent.find('input, textarea')
     for (var i=0; i<inputs.length; i++) {
       data[inputs[i].name] = inputs[i].value;
     }
@@ -45,8 +46,7 @@ var formHandler = function (url) {
       if (response.match(/Looks like you/)) {
         alert('Hmm, something went wrong. Please try again?');
       } else {
-        $('.cfp div.signup p').css('display', 'none');
-        $('.cfp div.signup form').css('display', 'none');
+        parent.find('p, form').css('display', 'none');
         $('.cfp div.signup').append('<span class="success">Thanks for your submission. We&#39;ll be in touch soon!</span>');
       }
     }).fail(function() {
