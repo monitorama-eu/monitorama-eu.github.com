@@ -35,9 +35,9 @@ if (window.location.hash.length !== 0) {
 
 var formHandler = function (url) {
   return function () {
-    var data = {}
-    var parent = $(this).parent()
-    var inputs = parent.find('input, textarea')
+    var data = {};
+    var parent = $(this).parent();
+    var inputs = parent.find('input, textarea');
     for (var i=0; i<inputs.length; i++) {
       data[inputs[i].name] = inputs[i].value;
     }
