@@ -36,7 +36,8 @@ if (window.location.hash.length !== 0) {
 // submit CFP form
 $('.cfp .signup form').on('click', 'a', function() {
   var data = {}
-  var url = 'https://docs.google.com/a/dixongroup.net/spreadsheet/formResponse?formkey=dHFfbWZNNC1rRmF0ZWJuUVg2MmFvVFE6MQ&amp;embedded=true&amp;ifq';
+  var url = 
+'https://docs.google.com/a/m.aier.us/spreadsheet/formResponse?formkey=1QfIOleC_dIM7dg5gIw5Bjdk-R8PfgZl8qAlsRVtumXk&amp;embedded=true&amp;ifq';
   var inputs = $(this).parent().find('input')
   for (var i=0; i<inputs.length; i++) {
     data[inputs[i].name] = inputs[i].value;
