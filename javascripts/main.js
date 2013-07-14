@@ -36,12 +36,10 @@ if (window.location.hash.length !== 0) {
 var formHandler = function (url) {
   return function () {
     var data = {}
-    var inputs = $(this).parent().find('input')
+    var inputs = $(this).parent().find('input, textarea')
     for (var i=0; i<inputs.length; i++) {
       data[inputs[i].name] = inputs[i].value;
     }
-    var abstract = $(this).parent().find('textarea');
-    data[abstract.attr('name')] = abstract.val();
     $.post(url, data, function(response) {
       // Google Forms is returning 200 on missing inputs so look for it
       if (response.match(/Looks like you/)) {
