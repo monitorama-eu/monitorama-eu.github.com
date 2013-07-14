@@ -47,7 +47,7 @@ var formHandler = function (url) {
         alert('Hmm, something went wrong. Please try again?');
       } else {
         parent.find('p, form').css('display', 'none');
-        $('.cfp div.signup').append('<span class="success">Thanks for your submission. We&#39;ll be in touch soon!</span>');
+        parent.append('<span class="success">Thanks for your submission!</span>');
       }
     }).fail(function() {
       alert('Hmm, something went wrong. Please try again?');
