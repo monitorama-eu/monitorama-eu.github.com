@@ -42,20 +42,16 @@ var formHandler = function (url) {
     }
     var abstract = $(this).parent().find('textarea');
     data[abstract.attr('name')] = abstract.val();
-    console.log(data);
     $.post(url, data, function(response) {
       // Google Forms is returning 200 on missing inputs so look for it
       if (response.match(/Looks like you/)) {
-        console.log('failure!');
         alert('Hmm, something went wrong. Please try again?');
       } else {
-        console.log('success!');
         $('.cfp div.signup p').css('display', 'none');
         $('.cfp div.signup form').css('display', 'none');
         $('.cfp div.signup').append('<span class="success">Thanks for your submission. We&#39;ll be in touch soon!</span>');
       }
     }).fail(function() {
-      console.log('failure!');
       alert('Hmm, something went wrong. Please try again?');
     })
     return false;
