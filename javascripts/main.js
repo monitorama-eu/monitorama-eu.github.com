@@ -36,7 +36,6 @@ if (window.location.hash.length !== 0) {
 var formHandler = function (url) {
   return function () {
     var data = {}
-    var url = 'https://docs.google.com/a/dixongroup.net/spreadsheet/formResponse?formkey=dHFfbWZNNC1rRmF0ZWJuUVg2MmFvVFE6MQ&amp;embedded=true&amp;ifq';
     var inputs = $(this).parent().find('input')
     for (var i=0; i<inputs.length; i++) {
       data[inputs[i].name] = inputs[i].value;
@@ -64,7 +63,9 @@ var formHandler = function (url) {
 }
 
 // submit CFP form
-$('.cfp .signup form').on('click', 'a', formHandler());
+$('.cfp .signup form').on('click', 'a', formHandler(
+  'https://docs.google.com/a/dixongroup.net/spreadsheet/formResponse?formkey=dHFfbWZNNC1rRmF0ZWJuUVg2MmFvVFE6MQ&amp;embedded=true&amp;ifq'
+));
 
 // populate speakers
 for (var i in speakers) {
