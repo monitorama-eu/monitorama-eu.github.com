@@ -130,7 +130,7 @@ var speakers = [
     "github": "postwait",
     "twitter": "postwait",
     "bio": "Theo Schlossnagle is a Founder and Principal at OmniTI where he designs and implements scalable solutions for highly trafficked sites and other clients in need of sound, scalable architectural engineering. He is the architect of the highly scalable Ecelerity mail transport agent. Theo is a participant in various open source communities including OpenSolaris, Linux, Apache, PostgreSQL, perl, and many others. He is a published author in the area of scalability and distributed systems as well as a veteran speaker in the open source conference circuit.<br /><br />Theo founded several successful startups as engineering focused organizations including: OmniTI, Circonus, Message Systems and Fontdeck.",
-    "hash": "ee87f7f05f9bab98f48e8f158a3b38df"
+    "hash": "a23d0bf95d6eeb2d848512f198cad190"
   },
   {
     "name": "Ryan Smith",
