@@ -66,7 +66,7 @@ var speakers = [
     "name": "Michael Gorsuch",
     "github": "gorsuch",
     "twitter": "michaelgorsuch",
-    "bio": "Michael is an Oklahoma native making a name for himself in the world of lolcats and unicorns. He has worked alongside internet pioneers while innovating The Cloud at firms such as Fog Creek Software, Heroku and GitHub. His passions include weekend mushroom hunting and Volkswagens, although his family ranks a close third. It can never be said that Michael is not a fan of hard work, although he'd just as soon be lying in his hammock reading E.L. James novels.",
+    "bio": "Michael is an Oklahoma native making a name for himself in the world of lolcats and unicorns. He has worked alongside internet pioneers while innovating The Cloud at firms such as Fog Creek Software, Heroku and GitHub. His passions include weekend mushroom hunting, Volkswagens, and sipping picklebacks, although his family ranks a close third. It can never be said that Michael is not a fan of hard work, although he'd just as soon be lying in his hammock reading E.L. James novels.",
     "hash": "2c80e1b0837eec76d38d4f7fa1c15e87"
   },
   {
