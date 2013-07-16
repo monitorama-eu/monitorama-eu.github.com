@@ -80,7 +80,7 @@ var speakers = [
     "name": "Jarkko Laine",
     "github": "jarkko",
     "twitter": "jarkko",
-    "bio": "Jarkko Laine was one of the earliest Rails evangelists in Europe, giving presentations about the framework when only few people knew it even existed. He has written two Rails-related books, “Unobtrusive Prototype” and “Beginning Ruby on Rails E-Commerce”.<br /><br />When not running aimlessly around the woods, Jarkko works as a developer for Wildfire App and as a Ruby and Rails trainer/consultant at his own company, O’Design.",
+    "bio": "Jarkko Laine is a co-founder and jack of all trades at bearmetal.eu. He became one of the the early Ruby on Rails evangelists in Europe after semi-accidentally ending up body-doubling DHH in a Rails tutorial in EuroOSCON 2005. He's since written two books on the subject, <em>Unobtrusive Prototype</em> and <em>Beginning Ruby on Rails E-Commerce</em>.<br /><br />Jarkko spent the past five years as part of the team that built Wildfire App from scratch to serving large part of Fortune 50 companies before it was sold to Google last year. As an orienteer, he has an insatiable thirst to learn more about the human mind, body, and especially their co-operation. When not running aimlessly around the woods, Jarkko now helps founders build profitable web businesses as part of the Bear Metal team.",
     "hash": "82476266af9d460415d8f1fc16bb54ed"
   },
   {
@@ -110,6 +110,13 @@ var speakers = [
     "twitter": "ifesdjeen",
     "bio": "Zefops, gymops. Clojure / Ruby / C hacker. @ClojureWerkz core team. Data analysis & visualization nerd. Constantly thinking of new ways to make things more visible, predictable and stable.",
     "hash": "c1a634a6db1049a4b98b365f63a5fd97"
+  },
+  {
+    "name": "Florian Pfeiffer",
+    "github": "derfloh",
+    "twitter": "derfloh",
+    "bio": "Florian Pfeiffer made his first steps at Yahoo! as a developer on various European products. After six years he joined gutefrage.net where he worked in various teams and is currently Head of Data & Infrastructure. He likes the challenges of running & monitoring a high traffic website that has several releases a day.",
+    "hash": "c4614ebbe33c9dbbb7c4e4b4b8c97ade"
   },
   {
     "name": "Pierre-Yves Ritschard",
