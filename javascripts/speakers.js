@@ -122,7 +122,7 @@ var speakers = [
     "name": "Pierre-Yves Ritschard",
     "github": "pyr",
     "twitter": "pyr",
-    "bio": "Pierre-Yves, after several positions in the management and operation of large structures, switched three years ago to focus on distributed system architectures. He's very involved in the open-source world and particularly in DevOps-related projects, including riemann, pallet and collectd.",
+    "bio": "Principal Architect at https://exoscale.ch, the leading swiss public IAAS service. Recovering operations engineer now focused on building distributed systems, with a a knack for monitoring, visibility and instrumentation. Member of the OpenBSD and Collectd development teams.",
     "hash": "2fcc875f98607b3007909fe4be99160d"
   },
   {
