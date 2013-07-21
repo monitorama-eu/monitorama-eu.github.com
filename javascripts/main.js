@@ -58,7 +58,8 @@ var formHandler = function (url) {
 
 // submit CFP form
 $('.cfp .signup form').on('click', 'a', formHandler(
-  'https://docs.google.com/a/dixongroup.net/spreadsheet/formResponse?formkey=dHFfbWZNNC1rRmF0ZWJuUVg2MmFvVFE6MQ&amp;embedded=true&amp;ifq'
+  
+'https://docs.google.com/a/m.aier.us/forms/d/1QfIOleC_dIM7dg5gIw5Bjdk-R8PfgZl8qAlsRVtumXk/formResponse'
 ));
 
 // populate speakers
