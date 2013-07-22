@@ -38,7 +38,7 @@ var speakers = [
     "name": "Daniele De Matteis",
     "github": "morekid",
     "twitter": "morekid",
-    "bio": "Daniele de Matteis was most recerntly involved with designing the colours, layout and user interaction with the new Server Density graphing on web and iOS. He's also worked on website design, logos, print and his personal projects including augmented reality iPad interactions.",
+    "bio": "Daniele de Matteis was most recently involved with designing the colours, layout and user interaction with the new Server Density graphing on web and iOS. He's also worked on website design, logos, print and his personal projects including augmented reality iPad interactions.",
     "hash": "ca13887d38ae03906a68dfcc28738318"
   },
   {
