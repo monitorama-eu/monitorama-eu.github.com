@@ -43,14 +43,10 @@ var formHandler = function (url) {
     }
     $.post(url, data, function(response) {
       // Google Forms is returning 200 on missing inputs so look for it
-      if (response.match(/Looks like you/)) {
-        alert('Hmm, something went wrong. Please try again?');
-      } else {
+      if (!response.match(/Looks like you/)) {
         parent.find('p, form').css('display', 'none');
         parent.append('<span class="success">Thanks for your submission!</span>');
       }
-    }).fail(function() {
-      alert('Hmm, something went wrong. Please try again?');
     })
     return false;
   }
