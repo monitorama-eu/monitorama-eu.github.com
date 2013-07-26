@@ -186,43 +186,43 @@ section.welcome {
   height: auto;
 }
 
-.demos div.signup {
+div.signup {
   border: 1px solid #bbb;
   padding: 40px 20px;
   background-color: rgba(187, 187, 187, 0.14);
   margin-bottom: 50px;
 }
 
-.demos .signup .container {
+.signup .container {
   width: 50%;
   margin: 0 auto;
 }
 
-.demos .signup p {
+.signup p {
   margin: 20px 0 40px;
   font-size: 1.0em;
 }
 
-.demos .signup form li {
+.signup form li {
   list-style: none;
   margin-bottom: 15px;
   text-align: left;
 }
 
-.demos .signup form li label {
+.signup form li label {
   font-size: 0.7em;
 }
 
-.demos .signup form li input {
+.signup form li input {
   width: 200px;
 }
 
-.demos .signup form li input, .demos .signup form li textarea {
+.signup form li input, .signup form li textarea {
   min-height: 15px;
   padding: 3px;
 }
 
-.demos .signup a.btn {
+.signup a.btn {
   background: -webkit-gradient( linear, left top, left bottom, color-stop(0.05, #79bbff), color-stop(1, #378de5) );
   background: -moz-linear-gradient( center top, #79bbff 5%, #378de5 100% );
   background-color: #79bbff;
@@ -239,18 +239,18 @@ section.welcome {
   margin: 25px 0 40px -20px;
 }
 
-.demos .signup a.btn:hover {
+.signup a.btn:hover {
   background: -webkit-gradient( linear, left top, left bottom, color-stop(0.05, #378de5), color-stop(1, #79bbff) );
   background: -moz-linear-gradient( center top, #378de5 5%, #79bbff 100% );
   background-color: #378de5;
 }
 
-.demos .signup a.btn:active {
+.signup a.btn:active {
   position: relative;
   top: 1px;
 }
 
-.demos .signup span.success {
+.signup span.success {
   font-family: "Arvo-Bold";
   text-transform: uppercase;
   color: green;
