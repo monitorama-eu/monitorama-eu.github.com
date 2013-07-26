@@ -41,13 +41,11 @@ var formHandler = function (url) {
     for (var i=0; i<inputs.length; i++) {
       data[inputs[i].name] = inputs[i].value;
     }
-    $.post(url, data, function(response) {
-      // Google Forms is returning 200 on missing inputs so look for it
-      if (!response.match(/Looks like you/)) {
-        parent.find('p, form').css('display', 'none');
-        parent.append('<span class="success">Thanks for your submission!</span>');
-      }
-    })
+    var thanks = function (response) {
+      parent.parent().find('p, form').css('display', 'none');
+      parent.parent().append('<span class="success">Thanks for your submission!</span>');
+    }
+    $.post(url, data, thanks).fail(thanks);
     return false;
   }
 }
