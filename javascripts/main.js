@@ -53,7 +53,7 @@ var formHandler = function (url) {
 }
 
 // submit CFP form
-$('.cfp .signup form').on('click', 'a', formHandler(
+$('.demos .signup form').on('click', 'a', formHandler(
   
 'https://docs.google.com/a/m.aier.us/forms/d/1QfIOleC_dIM7dg5gIw5Bjdk-R8PfgZl8qAlsRVtumXk/formResponse'
 ));
