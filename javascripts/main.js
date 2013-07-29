@@ -41,24 +41,19 @@ var formHandler = function (url) {
     for (var i=0; i<inputs.length; i++) {
       data[inputs[i].name] = inputs[i].value;
     }
-    $.post(url, data, function(response) {
-      // Google Forms is returning 200 on missing inputs so look for it
-      if (response.match(/Looks like you/)) {
-        alert('Hmm, something went wrong. Please try again?');
-      } else {
-        parent.find('p, form').css('display', 'none');
-        parent.append('<span class="success">Thanks for your submission!</span>');
-      }
-    }).fail(function() {
-      alert('Hmm, something went wrong. Please try again?');
-    })
+    var thanks = function (response) {
+      parent.parent().find('p, form').css('display', 'none');
+      parent.parent().append('<span class="success">Thanks for your submission!</span>');
+    }
+    $.post(url, data, thanks).fail(thanks);
     return false;
   }
 }
 
 // submit CFP form
-$('.cfp .signup form').on('click', 'a', formHandler(
-  'https://docs.google.com/a/dixongroup.net/spreadsheet/formResponse?formkey=dHFfbWZNNC1rRmF0ZWJuUVg2MmFvVFE6MQ&amp;embedded=true&amp;ifq'
+$('.demos .signup form').on('click', 'a', formHandler(
+  
+'https://docs.google.com/a/m.aier.us/forms/d/1QfIOleC_dIM7dg5gIw5Bjdk-R8PfgZl8qAlsRVtumXk/formResponse'
 ));
 
 // populate speakers
