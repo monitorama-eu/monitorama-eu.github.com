@@ -55,6 +55,8 @@ $('.demos .signup form').on('click', 'a', formHandler(
   
 'https://docs.google.com/a/m.aier.us/forms/d/1QfIOleC_dIM7dg5gIw5Bjdk-R8PfgZl8qAlsRVtumXk/formResponse'
 ));
+// submit 5k form
+$('.run .signup form').on('click', 'a', formHandler('https://docs.google.com/a/m.aier.us/forms/d/19Wmg2FvtQCciFXzNUojWIreHkvPysyLisL7gEMUKnP4/formResponse'));
 
 // populate speakers
 for (var i in speakers) {
