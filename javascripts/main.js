@@ -33,34 +33,28 @@ if (window.location.hash.length !== 0) {
   setSection(window.location.hash.replace('#', ''));
 }
 
-// submit CFP form
-$('.cfp .signup form').on('click', 'a', function() {
-  var data = {}
-  var url = 'https://docs.google.com/a/dixongroup.net/spreadsheet/formResponse?formkey=dHFfbWZNNC1rRmF0ZWJuUVg2MmFvVFE6MQ&amp;embedded=true&amp;ifq';
-  var inputs = $(this).parent().find('input')
-  for (var i=0; i<inputs.length; i++) {
-    data[inputs[i].name] = inputs[i].value;
-  }
-  var abstract = $(this).parent().find('textarea');
-  data[abstract.attr('name')] = abstract.val();
-  console.log(data);
-  $.post(url, data, function(response) {
-    // Google Forms is returning 200 on missing inputs so look for it
-    if (response.match(/Looks like you/)) {
-      console.log('failure!');
-      alert('Hmm, something went wrong. Please try again?');
-    } else {
-      console.log('success!');
-      $('.cfp div.signup p').css('display', 'none');
-      $('.cfp div.signup form').css('display', 'none');
-      $('.cfp div.signup').append('<span class="success">Thanks for your submission. We&#39;ll be in touch soon!</span>');
+var formHandler = function (url) {
+  return function () {
+    var data = {};
+    var parent = $(this).parent();
+    var inputs = parent.find('input, textarea');
+    for (var i=0; i<inputs.length; i++) {
+      data[inputs[i].name] = inputs[i].value;
     }
-  }).fail(function() {
-    console.log('failure!');
-    alert('Hmm, something went wrong. Please try again?');
-  })
-  return false;
-})
+    var thanks = function (response) {
+      parent.parent().find('p, form').css('display', 'none');
+      parent.parent().append('<span class="success">Thanks for your submission!</span>');
+    }
+    $.post(url, data, thanks).fail(thanks);
+    return false;
+  }
+}
+
+// submit CFP form
+$('.demos .signup form').on('click', 'a', formHandler(
+  
+'https://docs.google.com/a/m.aier.us/forms/d/1QfIOleC_dIM7dg5gIw5Bjdk-R8PfgZl8qAlsRVtumXk/formResponse'
+));
 
 // populate speakers
 for (var i in speakers) {

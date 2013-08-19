@@ -23,8 +23,9 @@
       <header>
         <ul>
           <li><a id="welcome" class="active" href="#">Welcome</a></li>
-          <li><a id="cfp" href="#">CFP</a></li>
-          <!--li><a id="speakers" href="#">Speakers</a></li-->
+          <!--li><a id="cfp" href="#">CFP</a></li-->
+          <li><a id="speakers" href="#">Speakers</a></li>
+          <li><a id="demos" href="#">Demos</a></li>
           <!--li><a id="schedule" href="#">Schedule</a></li-->
           <!--li><a id="hackathon" href="#">H❤ckathon</a></li-->
           <li><a id="registration" href="#">Registration</a></li>
@@ -36,7 +37,7 @@
 
       <div class="slider">
         <h1>Monitorama EU</h1>
-        <h2>An Open Source Monitoring Conference &amp; Hackathon - 19. bis 20. September 2013</h2>
+        <h2>An Open Source Monitoring Conference &amp; Hackathon - 19. &ndash; 20. September 2013</h2>
         <h3>Urania, Kleiststraße - Berlin, Germany</h3>
       </div>
 
@@ -59,18 +60,64 @@
           <p>Grab your ticket as soon as soon as registration opens. Be forewarned, space is limited and we'll sell out fast.</p>
         </section>
 
-        <section class="cfp">
+        <!--section class="cfp">
           <h4>Call for Participation</h4>
 
           <p>The CFP for this year's event is now officially closed. We had a fantastic response to this year's call.</p>
 
           <p>We'll be notifying speakers and publishing the final results no later than 14 July, 2013.</p>
+        </section-->
+
+        <section class="demos">
+          <h4>Demos and lightning talks</h4>
+
+          <p>On the second afternoon, we'll provide time for attendees to present their hackathon work, demo an open source monitoring project, or persuade us about a current topic in monitoring (no commercial demos, please). These may be traditional lightning talks (20 slides that advance automatically) or free-form, but they'll each be no longer than five minutes.</p>
+
+          <p>Let us know if you'd like to present. If space becomes limited, we'll try to accomodate presentations of hackathon work first.</p>
+
+          <div class="signup">
+            <div class="container">
+              <p>All fields with an (&#42;) asterisk are required.</p>
+              <form>
+                <ul>
+                  <li>
+                    <label for="entry.286619109">&#42; Name:</label><br />
+                    <input type="text" name="entry.286619109"></input>
+                  </li>
+                  <li>
+                    <label for="entry.1557992440">&#42; Email:</label><br />
+                    <input type="text" name="entry.1557992440"></input>
+                  </li>
+                  <li>
+                    <label for="entry.675657163">Twitter (&#64;handle):</label><br />
+                    <input type="text" name="entry.675657163"></input>
+                  </li>
+                  <li>
+                    <label for="entry.1197880931">GitHub (username):</label><br />
+                    <input type="text" name="entry.1197880931"></input>
+                  </li>
+                  <li>
+                    <label for="entry.42665830">&#42; Talk title:</label><br />
+                    <input type="text" name="entry.42665830"></input>
+                  </li>
+                  <li>
+                    <label for="entry.1192897076">&#42; Description:</label><br />
+                    <textarea name="entry.1192897076" rows="20" cols="60"></textarea>
+                  </li>
+                </ul>
+                <input type="hidden" name="pageHistory" value="0"></input>
+                <input type="hidden" name="draftResponse" value="[]"></input>
+                <a class="btn" href="#">Submit</a>
+              </form>
+            </div>
+          </div>
+
         </section>
 
-        <!--section class="speakers">
+        <section class="speakers">
           <h4>Meet the Speakers.</h4>
           <ul></ul>
-        </section-->
+        </section>
 
         <!--section class="schedule">
           <h4>Not Your Average Single-Track.</h4>
@@ -240,26 +287,58 @@
           <p style="text-align: center;">Early Bird registration ends on 1 July 2013.</p>
 
           <div style="width:100%; text-align:left;">
-            <iframe  src="http://www.eventbrite.com/tickets-external?eid=5769666227&ref=etckt&v=2" frameborder="0" height="250" width="100%" vspace="0" hspace="0" marginheight="5" marginwidth="5" scrolling="auto" allowtransparency="true"></iframe>
+            <iframe  src="http://www.eventbrite.com/tickets-external?eid=5769666227&ref=etckt&v=2" frameborder="0" height="286" width="100%" vspace="0" hspace="0" marginheight="5" marginwidth="5" scrolling="auto" allowtransparency="true"></iframe>
           </div>
         </section>
 
         <section class="sponsors">
           <h4>We Love Our Sponsors.</h4>
 
-          <h5>Coming Soon!</h5>
-
           <div class="sponsors">
 
-            <!--div class="sponsor">
-              <a href="https://github.com/" target="_blank"><img src="./images/github_logo.png" /></a>
+            <div class="sponsor">
+              <a href="https://github.com/" target="_blank"><img src="./images/logo_github.png" /></a>
               <p>GitHub provides tools to collaboratively develop and host source code. Code review, issue tracking, wikis with ReST, AsciiDoc, and Markdown support -- our goal is to make it easier for you and your team to build great software, whether your team is your co-workers sitting next to you or strangers across the globe. Open source can use GitHub completely for free, making it a great place to discover interesting projects, while businesses can feel safe with our secure private offerings.</p>
-            </div-->
+            </div>
 
-            <!--div class="sponsor">
-              <a href="https://metrics.librato.com/" target="_blank"><img src="./images/librato_logo.png" width="200" /></a>
+            <div class="sponsor">
+              <a href="https://metrics.librato.com/" target="_blank"><img src="./images/logo_librato.png" width="200" /></a>
               <p>Librato is the creator of Metrics, a cloud-based service that helps businesses monitor all aspects of their operation, be it their cloud or datacenter infrastructure, their applications, their business metrics, or even their sensor network. It is a platform for storing, visualizing, correlating and acting on any and all of the time series data they want to monitor. Whether data is collected with open source collection agents, via language bindings, or via simple scripts, with Metrics all monitoring data is brought together in a unified hosted environment, helping users to see trends, detect signs of problems early, minimize their impact through automated actions, and quickly find and fix their root cause. Its ease of use, and stunning graphs and dashboards make it both easier and more fun to safeguard the availability and performance of any applications.</p>
-            </div-->
+            </div>
+
+            <div class="sponsor">
+              <a href="http://cumulusnetworks.com/" target="_blank"><img src="./images/logo_cumulusnetworks.png" width="300" /></a>
+              <p>Cumulus Networks makes the first true, full-featured Linux operating system for networking hardware, radically simplifying the task of orchestrating, automating and monitoring modern datacenter networks for service providers and enterprises.</p>
+            </div>
+
+            <div class="sponsor">
+              <a href="https://www.serverdensity.com/" target="_blank"><img src="./images/logo_serverdensity.png" width="250" /></a>
+              <p>Server Density is a SaaS tool which helps you run your infrastructure. It syncs with the major cloud providers and and allows you to monitor your websites and servers from a single console, API and mobile app so you can diagnose problems, maintain uptime and maximise performance.</p>
+            </div>
+
+            <div class="sponsor">
+              <a href="https://errplane.com/" target="_blank"><img src="./images/logo_errplane.png" width="250" /></a>
+              <p>Errplane is a SaaS platform for monitoring and tracking metrics and events in your applications and servers. Errplane's automatic anomaly detection surfaces the metrics you should be looking at in addition to the ones you’ve selected for your dashboards. With Errplane you can instrument everything and let us show you what's important without having to dig through mountains of metrics. You can also monitor for conditions like if a metric passes a given threshold, if something happens more than x times in y seconds, if a metric stops reporting (i.e. heartbeating), if there's a shift in the moving average or if there are outliers. Feed metrics and events in via client libraries, statsd integration, or our local server agent (which also monitors your running processes and servers). With Errplane, you don’t have to watch dashboards like a hawk to be sure that your applications and servers are healthy.</p>
+
+            <div class="sponsor">
+              <a href="https://dnsimple.com/" target="_blank"><img src="./images/logo_dnsimple.png" width="200" /></a>
+              <p>DNSimple is a hosted DNS service that you can use to manage your domain names. Plans start at $3 per month for up to 10 managed domains. You can also use DNSimple to register domain names and purchase SSL certificates. With top-notch customer support, one-click services and a robust API, DNSimple makes managing your DNS simple and painless. We love our customers and are always here to help. Sign up now and get a free 30 day trial that you may cancel at any time.</p>
+            </div>
+
+            <div class="sponsor">
+              <a href="http://newrelic.com/" target="_blank"><img src="./images/logo_newrelic.png" width="200" /></a>
+              <p>New Relic, Inc. is the all-in-one web application performance management provider for the cloud and the data center. Its SaaS solution, which combines real user monitoring, application monitoring, and server monitoring in a single solution built from the ground up, changes the way developers and operations teams manage web application performance in real-time. More than 30,000 organizations use New Relic to optimize over 8 billion transactions in production each day.</p>
+            </div>
+
+            <div class="sponsor">
+              <a href="http://www.pagerduty.com/" target="_blank"><img src="./images/logo_pagerduty.png" width="225" /></a>
+              <p><a href="http://www.pagerduty.com/" target="_blank">PagerDuty</a> is the leading SaaS alerting and incident tracking solution helping IT organizations resolve problems within their infrastructure as fast as possible. PagerDuty integrates with your monitoring tools and handles the people part of the equation: alerting (via phone, SMS, email), on-call team scheduling, and automatic escalation of critical issues. <a href="http://pagerduty.com/" target="_blank">Try PagerDuty free for 30-Days at www.pagerduty.com.</a></p>
+            </div>
+
+            <div class="sponsor">
+              <a href="http://www.elasticsearch.org/" target="_blank"><img src="./images/logo_elasticsearch.png" width="200" /></a>
+              <p>Elasticsearch is on a mission to organize data and make it easily accessible. We deliver the world’s the most advanced open source search and analytics engine available and make real-time data exploration available to anyone. By having a laser focus on achieving the best user experience imaginable, Elasticsearch has become one of the most popular and rapidly growing open source solutions in the market. Today, Elasticsearch is used by thousands of enterprises in virtually every industry. We take good care of our customers and users, providing production support, development support and training worldwide. To learn more, visit <a href="http://www.elasticsearch.org/">www.elasticsearch.org</a>.</p>
+            </div>
 
             <div class="prospectus">
               <h4>Want to Be a Sponsor?</h4>
