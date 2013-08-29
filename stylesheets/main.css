@@ -335,7 +335,7 @@ div.signup {
   background-color: rgb(236, 236, 236);
 }
 
-.schedule td.workshop hr {
+.schedule td.session hr, .schedule td.workshop hr {
   border: 0;
   height: 0;
   margin: 4px 0;
