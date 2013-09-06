@@ -51,14 +51,12 @@ var formHandler = function (url) {
 }
 
 // submit CFP form
-$('.demos .signup form').on('click', 'a', formHandler(
-  
-'https://docs.google.com/a/m.aier.us/forms/d/1QfIOleC_dIM7dg5gIw5Bjdk-R8PfgZl8qAlsRVtumXk/formResponse'
-));
+$('.demos .signup form').on('click', 'a', formHandler('https://docs.google.com/a/m.aier.us/forms/d/1QfIOleC_dIM7dg5gIw5Bjdk-R8PfgZl8qAlsRVtumXk/formResponse'));
+
 // submit 5k form
 $('.run .signup form').on('click', 'a', formHandler('https://docs.google.com/a/m.aier.us/forms/d/19Wmg2FvtQCciFXzNUojWIreHkvPysyLisL7gEMUKnP4/formResponse'));
 
-// populate speakers
+// iterate through speakers
 for (var i in speakers) {
   var image = '<img src="http://www.gravatar.com/avatar/' + speakers[i].hash + '" />';
   var name = '<span class="name">' + speakers[i].name + '</span>';
@@ -71,5 +69,20 @@ for (var i in speakers) {
     speakers[i].twitter + '" target="_new">twitter</a></span>';
   var bio = '<p class="bio">' + speakers[i].bio + '</p>';
 
+  // populate speaker blocks
   $('section.speakers ul').append('<li class="speaker">' + image + name + twitter + github + bio + '</li>');
+
+  // populate abstracts for schedule
+  if (speakers[i].abstract.length > 0) {
+    $('section.schedule td.session:contains(' + speakers[i].name + ')').append(
+      '<span class="hidden abstract"><span class="name">' + speakers[i].name + '</span><hr />' + speakers[i].abstract + '</span>'
+    );
+  }
+
+  // display abstracts on hover
+  $('section.schedule').on('mouseenter', 'td.session', function() {
+    $(this).children('span').removeClass('hidden');
+  }).on('mouseleave', 'td.session', function() {
+    $(this).children('span').addClass('hidden');
+  });
 }
