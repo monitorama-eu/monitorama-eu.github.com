@@ -343,6 +343,29 @@ div.signup {
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 }
 
+.schedule td.session span.abstract hr {
+  margin: -10px 0 20px;
+}
+
+.schedule .session span.abstract {
+  position: absolute;
+  background-color: rgba(246, 255, 179, 0.92);
+  font-size: 0.9em;
+  width: 30%;
+  margin-left: -300px;
+  padding: 30px 30px 30px 40px;
+  border: 1px solid rgb(160, 167, 115);
+}
+
+.schedule .session span.abstract.hidden {
+  display: none;
+}
+
+.schedule .session .abstract span.name {
+  text-align: center;
+  display: block;
+}
+
 div.hackathon {
   padding-top: 20px;
 }
