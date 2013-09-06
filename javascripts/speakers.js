@@ -36,7 +36,7 @@ var speakers = [
     "github": "kdaniels",
     "twitter": "beerops",
     "bio": "Katherine is an operations engineer at GameChanger.io, where she focuses on automation and monitoring while occasionally dabbling in beer-driven development. Before escaping to the world of operations at NYC-based startups, she spent a few years doing QA and systems engineering in the corporate world. She lives in Brooklyn with a perfectly reasonable number of cats, and in her spare time can often be found rock climbing or making hot sauce.",
-    "abstract": "",
+    "abstract": "Staring at graphs/dashboards 24/7 is the wrong way to approach monitoring. What are the cultural and technical aspects of what can lead to that, and how can you get away from that state if you find yourself there? As part of a discussion on culture and tools best practices, I'll also talk about scaling up operations and monitoring as your company/product grows in size and complexity.",
     "hash": "dd0081cd62e25c796f50e1401132b19c"
   },
   {
