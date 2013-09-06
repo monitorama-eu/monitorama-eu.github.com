@@ -69,5 +69,20 @@ for (var i in speakers) {
     speakers[i].twitter + '" target="_new">twitter</a></span>';
   var bio = '<p class="bio">' + speakers[i].bio + '</p>';
 
+  // populate speaker blocks
   $('section.speakers ul').append('<li class="speaker">' + image + name + twitter + github + bio + '</li>');
+
+  // populate abstracts for schedule
+  if (speakers[i].abstract.length > 0) {
+    $('section.schedule td.session:contains(' + speakers[i].name + ')').append(
+      '<span class="hidden abstract"><span class="name">' + speakers[i].name + '</span><hr />' + speakers[i].abstract + '</span>'
+    );
+  }
+
+  // display abstracts on hover
+  $('section.schedule').on('mouseenter', 'td.session', function() {
+    $(this).children('span').removeClass('hidden');
+  }).on('mouseleave', 'td.session', function() {
+    $(this).children('span').addClass('hidden');
+  });
 }
