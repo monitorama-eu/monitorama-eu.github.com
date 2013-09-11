@@ -124,7 +124,7 @@ var speakers = [
     "github": "ifesdjeen",
     "twitter": "ifesdjeen",
     "bio": "Zefops, gymops. Clojure / Ruby / C hacker. @ClojureWerkz core team. Data analysis & visualization nerd. Constantly thinking of new ways to make things more visible, predictable and stable.",
-    "abstract": "",
+    "abstract": "Monitoring is sometimes approached as something related strictly to the technological assets. People monitor memory, CPU usage, latency, response times, queue sizes, cache miss frequencies and so on. All these things are extremely important, but there are many more things that can provide direct value for the business and give an insight would have been impossible otherwise.<br /><br />Having a toolchain that helps to easily dispatch, aggregate, store, redistribute and mine events changes the way everything ticks. Developers start measuring what's important for them, ops have a better insight and historical overview, marketing people see response to campaigns.<br /><br />For past two years we've been working on several applications that required such insights, and we formed a universal toolkit for everything mentioned here. We're working hard to make it best possible and open source it as soon as possible, in a meanwhile we can only reveal parts of it and tell how it all evolved.",
     "hash": "c1a634a6db1049a4b98b365f63a5fd97"
   },
   {
