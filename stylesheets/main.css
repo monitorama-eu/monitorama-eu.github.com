@@ -357,6 +357,10 @@ div.signup {
   border: 1px solid rgb(160, 167, 115);
 }
 
+.schedule .session span.abstract ul li {
+  margin-left: 15px;
+}
+
 .schedule .session span.abstract.hidden {
   display: none;
 }
