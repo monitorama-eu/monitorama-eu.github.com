@@ -172,7 +172,7 @@ var speakers = [
     "github": "sparez",
     "twitter": "rmspagnolo",
     "bio": "Reza has been exploring for the past few years how IaaS and PaaS look like on the other side of the cloud. Before that, he was responsible for bringing ideas from paper to production for several startups of the web and mobile industries. Fusing development and operations together is the only approach to building systems that has ever made sense to him and he enjoys now taking the practice to the next level as an AWS engineer.",
-    "abstract": "",
+    "abstract": "Adaptive Application Architecture<br /><br />Principles of system design to proactively leverage monitoring data<br /><br />Monitoring systems are nowadays still seen as passive actors layered atop independently developed system architectures. They are often not considered as an integral and active component of a design: they are rather used as a safety net whose main purpose is to trigger human interaction with a system in case of suspect failure or to provide more insight when analyzing such system performance and functional behavior.<br /><br />Although these are undoubtedly positive connotations, monitoring systems can provide greater advantage to the design of a system when their functionality is fully integrated in the system architecture, when they are considered a fully fledged actor within.",
     "hash": "885b20f047883867d98de21dce6c2e83"
   },
   {
