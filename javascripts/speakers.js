@@ -188,7 +188,7 @@ var speakers = [
     "github": "jweinstein",
     "twitter": "jeff_weinstein",
     "bio": "Jeff Weinstein is a data analytics engineer at Groupon working on monitoring and insight using real-time and large scale batch infrastructure. Previously, he was President at Hyperpublic, a local merchant data platform startup (acquired by Groupon), and prior led the R&D group at comScore analyzing lots of web logs. He hopes to humanize data analytics.",
-    "abstract": "",
+    "abstract": "How can devops inspire datas scientists, executives, and business analysts?<br /><br />Operations has created techniques for logging, monitoring, alerting, anomaly detection and visualization. We’ve been able to measure and understand complex technical systems and help give order to production chaos. I’d like to discuss, question and suggest how we can use these practices to better the other areas within our organizations, strengthen their relationship with operations and challenge the way the business views devops.<br /><br />We should be able to use the same platforms for reviewing the state of our data center as we do the state of the larger business. The data being created is important to the business and is already flowing through our measurement systems. We need flexible data systems that allow engineers and others to view, query and understand the state of the business as well as the technical, operational and performance metrics. I will outline a few steps each business can take to bridge the gap between these groups.",
     "hash": "3fd785240b555cdbb0d3465c00b79a30"
   },
   {
