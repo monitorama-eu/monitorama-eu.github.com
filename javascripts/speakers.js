@@ -44,7 +44,7 @@ var speakers = [
     "github": "morekid",
     "twitter": "morekid",
     "bio": "Daniele de Matteis was most recently involved with designing the colours, layout and user interaction with the new Server Density graphing on web and iOS. He's also worked on website design, logos, print and his personal projects including augmented reality iPad interactions.",
-    "abstract": "",
+    "abstract": "This will be a talk focusing on the theory and implementation details of how visualisations should be presented for monitoring data. Everyone is used to standard line graphs but what goes into designing them, creating a good user experience and what other types of visualisations are appropriate for which situations? This talk will consider questions such as:<br /><br /><ul><li>How are colours important? Both for brand identification and consistent user experience.</li><li>How do you visualise large volumes of data - hundreds of series?</li><li>Is there any value in anomaly detection or prediction?</li><li>What alternatives are there to line graphs? And when should they be used? Picking the right visualisation for the right use case.</li><li>Are graphs always appropriate? What are you trying to visualise and what’s the best way to achieve it?</ul><br />This talk will focus on design and interaction, with theory and examples, to help get the best out of monitoring metric visualisations.",
     "hash": "ca13887d38ae03906a68dfcc28738318"
   },
   {
