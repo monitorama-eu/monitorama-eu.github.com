@@ -44,7 +44,7 @@ var speakers = [
     "github": "morekid",
     "twitter": "morekid",
     "bio": "Daniele de Matteis was most recently involved with designing the colours, layout and user interaction with the new Server Density graphing on web and iOS. He's also worked on website design, logos, print and his personal projects including augmented reality iPad interactions.",
-    "abstract": "",
+    "abstract": "This will be a talk focusing on the theory and implementation details of how visualisations should be presented for monitoring data. Everyone is used to standard line graphs but what goes into designing them, creating a good user experience and what other types of visualisations are appropriate for which situations? This talk will consider questions such as:<br /><br /><ul><li>How are colours important? Both for brand identification and consistent user experience.</li><li>How do you visualise large volumes of data - hundreds of series?</li><li>Is there any value in anomaly detection or prediction?</li><li>What alternatives are there to line graphs? And when should they be used? Picking the right visualisation for the right use case.</li><li>Are graphs always appropriate? What are you trying to visualise and what’s the best way to achieve it?</ul><br />This talk will focus on design and interaction, with theory and examples, to help get the best out of monitoring metric visualisations.",
     "hash": "ca13887d38ae03906a68dfcc28738318"
   },
   {
@@ -180,7 +180,7 @@ var speakers = [
     "github": "astanway",
     "twitter": "abestanway",
     "bio": "Abe is a data engineer at Etsy and he lives in Brooklyn. He wrote Skyline, but more importantly, commitlogsfromlastnight.com - the premier software for monitoring curses in your commit logs. Previously, he monitored users at Chartbeat. He once wrote a service to monitor course openings for undergraduate class registration. He monitors Twitter at @abestanway.",
-    "abstract": "",
+    "abstract": "Algorithms suck, and Here's Why!<br /><br />The holy grail of monitoring is a smart system that uses algorithms to think for itself and decide what is anomalous and what is not, with minimal input from the human. In this talk, I will go in-depth into the current state of the art in anomaly detection algorithms, why they @#$% suck, and how we can start making them better.<br /><br />Warning: meaty, juicy statistics lie within!",
     "hash": "6601d82cf1b6776afd9c31f3d18294c3"
   },
   {
