@@ -180,7 +180,7 @@ var speakers = [
     "github": "astanway",
     "twitter": "abestanway",
     "bio": "Abe is a data engineer at Etsy and he lives in Brooklyn. He wrote Skyline, but more importantly, commitlogsfromlastnight.com - the premier software for monitoring curses in your commit logs. Previously, he monitored users at Chartbeat. He once wrote a service to monitor course openings for undergraduate class registration. He monitors Twitter at @abestanway.",
-    "abstract": "",
+    "abstract": "Algorithms suck, and Here's Why!<br /><br />The holy grail of monitoring is a smart system that uses algorithms to think for itself and decide what is anomalous and what is not, with minimal input from the human. In this talk, I will go in-depth into the current state of the art in anomaly detection algorithms, why they @#$% suck, and how we can start making them better.<br /><br />Warning: meaty, juicy statistics lie within!",
     "hash": "6601d82cf1b6776afd9c31f3d18294c3"
   },
   {
