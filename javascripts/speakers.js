@@ -68,7 +68,7 @@ var speakers = [
     "github": "dgoodlad",
     "twitter": "dgoodlad",
     "bio": "David Goodlad is a Canadian developer living in Australia, hacking on ops and systems as operations lead for the Envato marketplaces. He has a terrible obsession with tools, and loves automating everything from tiny embedded systems driving hvac equipment all the way up to racks full of servers.",
-    "abstract": "",
+    "abstract": "Infrastructure is Secondary<br /><br />It’s 3am, and your phone has rudely awakened you with the message &quot;ALERT: load average on myapp-backend01 is above 0.8&quot;. Does that mean anything to your users or your customers? Instead, what if you got to sleep through the night because that high load average wasn’t a real problem: you were just serving a bit more traffic than usual?<br /><br />This talk will discuss the merits of measuring and monitoring your business first and your infrastructure second. It will cover strategies for deciding what to measure, methods for measuring those things, and how to use them to make good operational decisions.",
     "hash": "f9336c3f47cfcde2389a4329d976c5b9"
   },
   {
