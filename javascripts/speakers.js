@@ -60,7 +60,7 @@ var speakers = [
     "github": "radu-gheorghe",
     "twitter": "radu0gheorghe",
     "bio": "Radu is a software engineer at Sematext, where he enjoys working on Logsene, a log analytics product. He is the co-author of <em>Elasticsearch in Action</em>. He also enjoys dancing the jive with his wife, and doing jam sessions with his son.",
-    "abstract": "",
+    "abstract": "This talk is about centralizing gazillions of logs and doing real-time search and analytics on them. We'll explore how Elasticsearch can act as a horizontally scalable data store for your logs that enables you to search and analyze seriously big data in real-time. We'll also answer some important questions, such as:<br /><br /><ul><li>When does structuring my logs, such as putting them in JSON format, help? When should I not do it?</li><li>What can I use to ship both structured and unstructured logs to Elasticsearch? What about the existing syslog daemon?</li><li>How do sysklogd, syslog-ng, and rsyslog compare in this context? Which one should I use and why?</li><li>What can I use to dig into my logs and visualize them once they're in?</li><li>Are there alternatives to Elasticsearch for log analytics? How about Logstash alternatives?</li></ul>",
     "hash": "2164d281261ff5f5a239a9ccd5bdcad4"
   },
   {
