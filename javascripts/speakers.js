@@ -84,7 +84,7 @@ var speakers = [
     "github": "auxesis",
     "twitter": "auxesis",
     "bio": "Lindsay Holmwood is a engineering manager living in the Australian Blue Mountains. He runs a distributed infracoders team at Bulletproof that builds hassle free tools, and was responsible for ensuring 100% uptime for the 2010 + 2011 + 2012 Movember campaigns. In his spare time, Lindsay organises the monthly Sydney DevOps Meetups. He also won third place at the 1996 Sydney Royal Easter Show LEGO building competition.",
-    "abstract": "",
+    "abstract": "The psychology of alert design<br /><br />It's 3:37am. Your phone starts buzzing. It doesn't stop. 1000s of alerts. All the things are broken. Where do you even begin?<br /><br />You freeze.<br /><br />The infrastructure we're operating are increasingly complex and nuanced. Events at one edge can have unintended and unpredictable effects on the other, and there is no obvious causal relationship. This makes debugging failure hard.<br /><br />Good alert design is important to lowering the MTTR when our complex infrastructures fail, but what constitutes a &quot;good alert&quot;? Our brains work in unexpected ways, with cognitive biases and priming skewing our perception of reality. It's vitally important to understand how we think and react under pressure when designing alerts and communicating failure.<br /><br />In this talk, Lindsay will showcase some of the psychological underpinnings you should take into account when designing your alerts, how other industries handle alert design, and what tools are available to increase your operational effectiveness in the face of massive failures today.",
     "hash": "fad1e9ed293fc5b3ec7d4abdffeb636f"
   },
   {
