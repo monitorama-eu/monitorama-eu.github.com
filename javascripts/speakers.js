@@ -132,7 +132,7 @@ var speakers = [
     "github": "derfloh",
     "twitter": "derfloh",
     "bio": "Florian Pfeiffer made his first steps at Yahoo! as a developer on various European products. After six years he joined gutefrage.net where he worked in various teams and is currently Head of Data & Infrastructure. He likes the challenges of running & monitoring a high traffic website that has several releases a day.",
-    "abstract": "",
+    "abstract": "In this talk I will show you why metrics are not an operations-guys-only endeavor but why you as a software developer can benefit from having graphs about how your software performs in the real world.<br /><br />I'll explain why it is important to have a system in place where creating new metrics is easy and will introduce you to the system (OpenTSDB) that we use at gutefrage.net to graph more than 150M data points per day for thousands of metrics. Also you'll see how you can use tools like Skyline from Etsy to automatically detect anomalies in your graphs, or how you can fingerprint your metrics to find correlating metrics.<br /><br />I will then explore what you can and should graph besides the obvious performance metrics. I'll show some creative and inspiring metrics that will help you to get a real feel for your product and for the organisation you are working in. You'll see lots of live graphs of Germanys biggest Q&A-platform in action, and will hopefully go home after this talk, eager to measure the whole world around you, because &quot;what gets measured gets managed&quot;.",
     "hash": "c4614ebbe33c9dbbb7c4e4b4b8c97ade"
   },
   {
