@@ -116,7 +116,7 @@ var speakers = [
     "github": "mihasya",
     "twitter": "mihasya",
     "bio": "Mikhail is a co-founder at Opsmatic, a startup dedicated to improving the tools available to operators at companies of all sizes. For inspiration and motivation, he draws on his experiences working with and around ops teams at Urban Airship, SimpleGeo, Flickr and Yahoo!. When not stressing out about computers, he's learning to surf, playing soccer, thinking of what else could be wall-mounted in his apartment, or just kicking back with good friends and good drink.",
-    "abstract": "",
+    "abstract": "Much time and mindshare is dedicated to monitoring. Primarily monitoring is associated with looking at numbers over time and, if alerting is included under the monitoring umbrella, being alerted when those numbers don't behave the way we expect them to. However, only looking at numbers and service states leaves us with just the tip of the iceberg.<br /><br />We will look at how our alerts and numbers can be enhanced greatly by adding some context from non-numeric, and non-binary observations. We will fantasize about what our tools might look like if we tried to surround ourselves with helpful contextual information, as well as look at some concrete examples.",
     "hash": "127b5dbc702c58a40ee060044427ef1e"
   },
   {
