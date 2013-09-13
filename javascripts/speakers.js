@@ -100,7 +100,7 @@ var speakers = [
     "github": "reyjrar",
     "twitter": "reyjrar",
     "bio": "Brad Lhotsky programs Perl and throws large amounts of data into PostgreSQL databases and ElasticSearch indexes in search of meaning.  He often ponders why security is seen as a roadblock to development and operations while trying ever so hard to automate himself out of a job.  Brad has 14 years of experience in operations and development and is currently leading a small team at Booking.com making security more agile.",
-    "abstract": "",
+    "abstract": "A quick look inside the ups and downs of gathering logging data into ElasticSearch.  After a very brief introduction to the ecosystem, we'll explore some horror stories, lessons learned, and walk away with a clear picture of why it's worth it.",
     "hash": "8d96f5c273062cb617255e630fe0705c"
   },
   {
