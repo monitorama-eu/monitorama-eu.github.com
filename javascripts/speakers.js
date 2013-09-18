@@ -80,6 +80,14 @@ var speakers = [
     "hash": "2c80e1b0837eec76d38d4f7fa1c15e87"
   },
   {
+    "name": "Oliver Hankeln",
+    "github": "mydalon",
+    "twitter": "mydalon",
+    "bio": "Oliver Hankeln is working as Senior Engineer - Data and Infrastructure at gutefrage.net GmbH. After several years of working as a software developer at various projects he switched to operations side of things, but still knows the needs of development.<br /><br />Oliver Hankeln therefore is a strong supporter of the DevOps idea, since even before that name was invented.",
+    "abstract": "In this talk I will show you why metrics are not an operations-guys-only endeavor but why you as a software developer can benefit from having graphs about how your software performs in the real world.<br /><br />I'll explain why it is important to have a system in place where creating new metrics is easy and will introduce you to the system (OpenTSDB) that we use at gutefrage.net to graph more than 150M data points per day for thousands of metrics. Also you'll see how you can use tools like Skyline from Etsy to automatically detect anomalies in your graphs, or how you can fingerprint your metrics to find correlating metrics.<br /><br />I will then explore what you can and should graph besides the obvious performance metrics. I'll show some creative and inspiring metrics that will help you to get a real feel for your product and for the organisation you are working in. You'll see lots of live graphs of Germanys biggest Q&A-platform in action, and will hopefully go home after this talk, eager to measure the whole world around you, because &quot;what gets measured gets managed&quot;.",
+    "hash": "9ae476afc19aa16af1d0ca6d31fbdfde"
+  },
+  {
     "name": "Lindsay Holmwood",
     "github": "auxesis",
     "twitter": "auxesis",
@@ -126,14 +134,6 @@ var speakers = [
     "bio": "Zefops, gymops. Clojure / Ruby / C hacker. @ClojureWerkz core team. Data analysis & visualization nerd. Constantly thinking of new ways to make things more visible, predictable and stable.",
     "abstract": "Monitoring is sometimes approached as something related strictly to the technological assets. People monitor memory, CPU usage, latency, response times, queue sizes, cache miss frequencies and so on. All these things are extremely important, but there are many more things that can provide direct value for the business and give an insight would have been impossible otherwise.<br /><br />Having a toolchain that helps to easily dispatch, aggregate, store, redistribute and mine events changes the way everything ticks. Developers start measuring what's important for them, ops have a better insight and historical overview, marketing people see response to campaigns.<br /><br />For past two years we've been working on several applications that required such insights, and we formed a universal toolkit for everything mentioned here. We're working hard to make it best possible and open source it as soon as possible, in a meanwhile we can only reveal parts of it and tell how it all evolved.",
     "hash": "c1a634a6db1049a4b98b365f63a5fd97"
-  },
-  {
-    "name": "Florian Pfeiffer",
-    "github": "derfloh",
-    "twitter": "derfloh",
-    "bio": "Florian Pfeiffer made his first steps at Yahoo! as a developer on various European products. After six years he joined gutefrage.net where he worked in various teams and is currently Head of Data & Infrastructure. He likes the challenges of running & monitoring a high traffic website that has several releases a day.",
-    "abstract": "In this talk I will show you why metrics are not an operations-guys-only endeavor but why you as a software developer can benefit from having graphs about how your software performs in the real world.<br /><br />I'll explain why it is important to have a system in place where creating new metrics is easy and will introduce you to the system (OpenTSDB) that we use at gutefrage.net to graph more than 150M data points per day for thousands of metrics. Also you'll see how you can use tools like Skyline from Etsy to automatically detect anomalies in your graphs, or how you can fingerprint your metrics to find correlating metrics.<br /><br />I will then explore what you can and should graph besides the obvious performance metrics. I'll show some creative and inspiring metrics that will help you to get a real feel for your product and for the organisation you are working in. You'll see lots of live graphs of Germanys biggest Q&A-platform in action, and will hopefully go home after this talk, eager to measure the whole world around you, because &quot;what gets measured gets managed&quot;.",
-    "hash": "c4614ebbe33c9dbbb7c4e4b4b8c97ade"
   },
   {
     "name": "Pierre-Yves Ritschard",
