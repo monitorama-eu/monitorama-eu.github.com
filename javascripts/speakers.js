@@ -108,7 +108,7 @@ var speakers = [
     "github": "mmcgrana",
     "twitter": "mmcgrana",
     "bio": "Mark is CTO at Heroku, the cloud application platform, where he's responsible for technology strategy and architecture. In his role Mark draws on his experience as a cloud infrastructure engineer and product architect. Mark has been an active contributor to the open source community, including as the creator of the Ring web library and the <em>Go by Example</em> online book. He graduated from Bowdoin College with an A.B. in Mathematics and Computer Science.",
-    "abstract": "",
+    "abstract": "This talk is about making systems better by having fewer of them. It looks at two themes:<br /><br /><ul><li>&quot;The best systems are used constantly&quot;</li><li>&quot;Everything is a _&quot;, for various values of _</li></ul><br />We'll show how these themes apply to some specific aspects of monitoring.",
     "hash": "3423442e7b51da238e663b343169b756"
   },
   {
