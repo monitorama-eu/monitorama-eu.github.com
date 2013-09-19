@@ -33,6 +33,7 @@
           <li><a id="venue" href="#">Venue</a></li>
           <li><a id="hotels" href="#">Hotels</a></li>
           <li><a id="run" href="#">Run</a></li>
+          <li><a id="live" href="#">Live</a></li>
         </ul>
       </header>
 
@@ -492,11 +493,32 @@
 
         </section>
 
-        <!--section class="live">
+        <section class="live">
           <h4>Watch our Live Feed</h4>
-          <p style="text-align: center;"><a href="http://streamtest.fastly.com/hls-live/livepkgr/_definst_/monitorama/monitorama.m3u8">Mobile users click here</a>.</p>
-          <div data-fastly-live="http://streamtest.fastly.com/hds-live/livepkgr/_definst_/monitorama/monitorama.f4m"></div>
-        </section-->
+          <script src="http://jwpsrv.com/library/oxR8SKdmEeKBoyIACpYGxA.js"></script>
+          <div id="main-player">
+            <div id="video"><video
+                 src="http://monitorama.edge.fastly-streams.com/hls/monitorama.m3u8"
+            controls autoplay height="480" width="854">
+              </video></div>
+            <script type='text/javascript'>
+                if (!document.createElement('video').canPlayType('application/vnd.apple.mpegurl')) {
+                  var videoDiv = document.getElementById("video");
+                  videoDiv.innerHTML = 'You need Adobe Flash Player to view this video. <a href="http://get.adobe.com/flashplayer/">Click Here</a> to install Flash.';
+                }
+                jwplayer('video').setup({
+                    file: 'http://monitorama.edge.fastly-streams.com/monitorama.m3u8',
+                    image: 'http://aleph.stream.fastly.com/player/fastlylive.png',
+                    width: '640',
+                    height: '360',
+                    fallback: false,
+                    primary: 'flash'
+                });
+            </script>
+          </div>
+          <!--p style="text-align: center;"><a href="http://streamtest.fastly.com/hls-live/livepkgr/_definst_/monitorama/monitorama.m3u8">Mobile users click here</a>.</p>
+          <div data-fastly-live="http://streamtest.fastly.com/hds-live/livepkgr/_definst_/monitorama/monitorama.f4m"></div-->
+        </section>
      </div>
 
       <footer>
