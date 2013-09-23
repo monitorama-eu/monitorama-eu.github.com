@@ -304,6 +304,10 @@ div.signup {
   font-size: 0.8em;
 }
 
+li.speaker iframe.video {
+  margin-bottom: 30px;
+}
+
 .schedule table {
   margin: auto;
 }
