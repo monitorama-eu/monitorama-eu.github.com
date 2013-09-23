@@ -68,9 +68,23 @@ for (var i in speakers) {
   var twitter = '<span class="twitter"><a href="https://twitter.com/' +
     speakers[i].twitter + '" target="_new">twitter</a></span>';
   var bio = '<p class="bio">' + speakers[i].bio + '</p>';
+  var video = '';
+  var slides = '';
+
+  if (speakers[i].videos) {
+    for (var j in speakers[i].videos) {
+      video += '<iframe class="video" src="http://player.vimeo.com/video/' + speakers[i].videos[j] + '" width="763" height="375" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>';
+    }
+  }
+
+  if (speakers[i].slides) {
+    for (var j in speakers[i].slides) {
+      slides += '<span class="slides"><a href="' + speakers[i].slides[j] + '" target="_new">slides</a></span>';
+    }
+  }
 
   // populate speaker blocks
-  $('section.speakers ul').append('<li class="speaker">' + image + name + twitter + github + bio + '</li>');
+  $('section.speakers ul').append('<li class="speaker">' + image + name + slides + twitter + github + bio + video + '</li>');
 
   // populate abstracts for schedule
   if (speakers[i].abstract.length > 0) {
