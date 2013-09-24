@@ -185,7 +185,7 @@ var speakers = [
     "twitter": "ryandotsmith",
     "bio": "I spend my days solving problems in Heroku's distributed computing environment. In previous days, I studied math at the university of Missouri Kansas City.",
     "abstract": "Predictable Failure<br /><br />Software fails. In this talk we will take a roundabout path to understanding what we can do to have our systems fail in systematic and predictable ways. If we understand and embrace our systems weaknesses we can greet disaster with the knowledge and ability to prevail against it. This talk is recommended to anyone who operates software or is an armchair airplane disaster analyst.",
-    "videos": [],
+    "videos": ["75304752"],
     "hash": "8964943d31146bd35d3d305ff940beca"
   },
   {
