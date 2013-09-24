@@ -104,7 +104,7 @@ var speakers = [
     "twitter": "auxesis",
     "bio": "Lindsay Holmwood is a engineering manager living in the Australian Blue Mountains. He runs a distributed infracoders team at Bulletproof that builds hassle free tools, and was responsible for ensuring 100% uptime for the 2010 + 2011 + 2012 Movember campaigns. In his spare time, Lindsay organises the monthly Sydney DevOps Meetups. He also won third place at the 1996 Sydney Royal Easter Show LEGO building competition.",
     "abstract": "The psychology of alert design<br /><br />It's 3:37am. Your phone starts buzzing. It doesn't stop. 1000s of alerts. All the things are broken. Where do you even begin?<br /><br />You freeze.<br /><br />The infrastructure we're operating are increasingly complex and nuanced. Events at one edge can have unintended and unpredictable effects on the other, and there is no obvious causal relationship. This makes debugging failure hard.<br /><br />Good alert design is important to lowering the MTTR when our complex infrastructures fail, but what constitutes a &quot;good alert&quot;? Our brains work in unexpected ways, with cognitive biases and priming skewing our perception of reality. It's vitally important to understand how we think and react under pressure when designing alerts and communicating failure.<br /><br />In this talk, Lindsay will showcase some of the psychological underpinnings you should take into account when designing your alerts, how other industries handle alert design, and what tools are available to increase your operational effectiveness in the face of massive failures today.",
-    "videos": [],
+    "videos": ["75321812"],
     "hash": "fad1e9ed293fc5b3ec7d4abdffeb636f"
   },
   {
@@ -113,7 +113,7 @@ var speakers = [
     "twitter": "jarkko",
     "bio": "Jarkko Laine is a co-founder and jack of all trades at bearmetal.eu. He became one of the the early Ruby on Rails evangelists in Europe after semi-accidentally ending up body-doubling DHH in a Rails tutorial in EuroOSCON 2005. He's since written two books on the subject, <em>Unobtrusive Prototype</em> and <em>Beginning Ruby on Rails E-Commerce</em>.<br /><br />Jarkko spent the past five years as part of the team that built Wildfire App from scratch to serving large part of Fortune 50 companies before it was sold to Google last year. As an orienteer, he has an insatiable thirst to learn more about the human mind, body, and especially their co-operation. When not running aimlessly around the woods, Jarkko now helps founders build profitable web businesses as part of the Bear Metal team.",
     "abstract": "Let your data tell a story<br /><br />Do you have that nagging feeling that your data tries to tell you something, you just can't figure out what? Missed that cue in your analytics dashboard that could've prevented a disaster? How can you prevent that in the future?<br /><br />While modern data visualizations have made wonders in helping us make sense of all the data we collect, we can do better. The human brain is primed to detect certain kinds of flags and unless we take advantage of that, we are prone to crapflood our brain to death and thus miss important things our data has to tell.<br /><br />In this talk we'll take a look at what recent studies in psychology and brain research have discovered about the human brain and behavior. Equipped with this knowledge we'll learn how we can hack ourselves and our monitoring systems to better take advantage of the data we're provided.",
-    "videos": [],
+    "videos": ["75318590"],
     "hash": "82476266af9d460415d8f1fc16bb54ed"
   },
   {
@@ -140,7 +140,7 @@ var speakers = [
     "twitter": "mihasya",
     "bio": "Mikhail is a co-founder at Opsmatic, a startup dedicated to improving the tools available to operators at companies of all sizes. For inspiration and motivation, he draws on his experiences working with and around ops teams at Urban Airship, SimpleGeo, Flickr and Yahoo!. When not stressing out about computers, he's learning to surf, playing soccer, thinking of what else could be wall-mounted in his apartment, or just kicking back with good friends and good drink.",
     "abstract": "Much time and mindshare is dedicated to monitoring. Primarily monitoring is associated with looking at numbers over time and, if alerting is included under the monitoring umbrella, being alerted when those numbers don't behave the way we expect them to. However, only looking at numbers and service states leaves us with just the tip of the iceberg.<br /><br />We will look at how our alerts and numbers can be enhanced greatly by adding some context from non-numeric, and non-binary observations. We will fantasize about what our tools might look like if we tried to surround ourselves with helpful contextual information, as well as look at some concrete examples.",
-    "videos": [],
+    "videos": ["75319951"],
     "hash": "127b5dbc702c58a40ee060044427ef1e"
   },
   {
