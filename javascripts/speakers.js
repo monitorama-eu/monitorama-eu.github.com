@@ -50,7 +50,7 @@ var speakers = [
     "twitter": "morekid",
     "bio": "Daniele de Matteis was most recently involved with designing the colours, layout and user interaction with the new Server Density graphing on web and iOS. He's also worked on website design, logos, print and his personal projects including augmented reality iPad interactions.",
     "abstract": "This will be a talk focusing on the theory and implementation details of how visualisations should be presented for monitoring data. Everyone is used to standard line graphs but what goes into designing them, creating a good user experience and what other types of visualisations are appropriate for which situations? This talk will consider questions such as:<br /><br /><ul><li>How are colours important? Both for brand identification and consistent user experience.</li><li>How do you visualise large volumes of data - hundreds of series?</li><li>Is there any value in anomaly detection or prediction?</li><li>What alternatives are there to line graphs? And when should they be used? Picking the right visualisation for the right use case.</li><li>Are graphs always appropriate? What are you trying to visualise and what’s the best way to achieve it?</ul><br />This talk will focus on design and interaction, with theory and examples, to help get the best out of monitoring metric visualisations.",
-    "videos": [],
+    "videos": ["75484249"],
     "hash": "ca13887d38ae03906a68dfcc28738318"
   },
   {
@@ -68,7 +68,7 @@ var speakers = [
     "twitter": "radu0gheorghe",
     "bio": "Radu is a software engineer at Sematext, where he enjoys working on Logsene, a log analytics product. He is the co-author of <em>Elasticsearch in Action</em>. He also enjoys dancing the jive with his wife, and doing jam sessions with his son.",
     "abstract": "This talk is about centralizing gazillions of logs and doing real-time search and analytics on them. We'll explore how Elasticsearch can act as a horizontally scalable data store for your logs that enables you to search and analyze seriously big data in real-time. We'll also answer some important questions, such as:<br /><br /><ul><li>When does structuring my logs, such as putting them in JSON format, help? When should I not do it?</li><li>What can I use to ship both structured and unstructured logs to Elasticsearch? What about the existing syslog daemon?</li><li>How do sysklogd, syslog-ng, and rsyslog compare in this context? Which one should I use and why?</li><li>What can I use to dig into my logs and visualize them once they're in?</li><li>Are there alternatives to Elasticsearch for log analytics? How about Logstash alternatives?</li></ul>",
-    "videos": [],
+    "videos": ["75665562"],
     "hash": "2164d281261ff5f5a239a9ccd5bdcad4"
   },
   {
@@ -77,7 +77,7 @@ var speakers = [
     "twitter": "dgoodlad",
     "bio": "David Goodlad is a Canadian developer living in Australia, hacking on ops and systems as operations lead for the Envato marketplaces. He has a terrible obsession with tools, and loves automating everything from tiny embedded systems driving hvac equipment all the way up to racks full of servers.",
     "abstract": "Infrastructure is Secondary<br /><br />It’s 3am, and your phone has rudely awakened you with the message &quot;ALERT: load average on myapp-backend01 is above 0.8&quot;. Does that mean anything to your users or your customers? Instead, what if you got to sleep through the night because that high load average wasn’t a real problem: you were just serving a bit more traffic than usual?<br /><br />This talk will discuss the merits of measuring and monitoring your business first and your infrastructure second. It will cover strategies for deciding what to measure, methods for measuring those things, and how to use them to make good operational decisions.",
-    "videos": [],
+    "videos": ["75664601"],
     "hash": "f9336c3f47cfcde2389a4329d976c5b9"
   },
   {
@@ -95,7 +95,7 @@ var speakers = [
     "twitter": "mydalon",
     "bio": "Oliver Hankeln is working as Senior Engineer - Data and Infrastructure at gutefrage.net GmbH. After several years of working as a software developer at various projects he switched to operations side of things, but still knows the needs of development.<br /><br />Oliver Hankeln therefore is a strong supporter of the DevOps idea, since even before that name was invented.",
     "abstract": "In this talk I will show you why metrics are not an operations-guys-only endeavor but why you as a software developer can benefit from having graphs about how your software performs in the real world.<br /><br />I'll explain why it is important to have a system in place where creating new metrics is easy and will introduce you to the system (OpenTSDB) that we use at gutefrage.net to graph more than 150M data points per day for thousands of metrics. Also you'll see how you can use tools like Skyline from Etsy to automatically detect anomalies in your graphs, or how you can fingerprint your metrics to find correlating metrics.<br /><br />I will then explore what you can and should graph besides the obvious performance metrics. I'll show some creative and inspiring metrics that will help you to get a real feel for your product and for the organisation you are working in. You'll see lots of live graphs of Germanys biggest Q&A-platform in action, and will hopefully go home after this talk, eager to measure the whole world around you, because &quot;what gets measured gets managed&quot;.",
-    "videos": [],
+    "videos": ["75664048"],
     "hash": "9ae476afc19aa16af1d0ca6d31fbdfde"
   },
   {
@@ -122,7 +122,7 @@ var speakers = [
     "twitter": "reyjrar",
     "bio": "Brad Lhotsky programs Perl and throws large amounts of data into PostgreSQL databases and ElasticSearch indexes in search of meaning.  He often ponders why security is seen as a roadblock to development and operations while trying ever so hard to automate himself out of a job.  Brad has 14 years of experience in operations and development and is currently leading a small team at Booking.com making security more agile.",
     "abstract": "A quick look inside the ups and downs of gathering logging data into ElasticSearch.  After a very brief introduction to the ecosystem, we'll explore some horror stories, lessons learned, and walk away with a clear picture of why it's worth it.",
-    "videos": [],
+    "videos": ["75661994"],
     "hash": "8d96f5c273062cb617255e630fe0705c"
   },
   {
@@ -149,7 +149,7 @@ var speakers = [
     "twitter": "ifesdjeen",
     "bio": "Zefops, gymops. Clojure / Ruby / C hacker. @ClojureWerkz core team. Data analysis & visualization nerd. Constantly thinking of new ways to make things more visible, predictable and stable.",
     "abstract": "Monitoring is sometimes approached as something related strictly to the technological assets. People monitor memory, CPU usage, latency, response times, queue sizes, cache miss frequencies and so on. All these things are extremely important, but there are many more things that can provide direct value for the business and give an insight would have been impossible otherwise.<br /><br />Having a toolchain that helps to easily dispatch, aggregate, store, redistribute and mine events changes the way everything ticks. Developers start measuring what's important for them, ops have a better insight and historical overview, marketing people see response to campaigns.<br /><br />For past two years we've been working on several applications that required such insights, and we formed a universal toolkit for everything mentioned here. We're working hard to make it best possible and open source it as soon as possible, in a meanwhile we can only reveal parts of it and tell how it all evolved.",
-    "videos": [],
+    "videos": ["75662796"],
     "hash": "c1a634a6db1049a4b98b365f63a5fd97"
   },
   {
@@ -167,7 +167,7 @@ var speakers = [
     "twitter": "garethr",
     "bio": "Gareth Rushgrove is a technical architect at the Government Digital Service, part of the UK Government. He is mainly interested in configuration management, infrastructure and platform as a service, automation and the whole devops community. He thinks when used well together these allow you to move really fast, even in tightly controlled environments like Government. When not working, Gareth can be found blogging over on morethanseven.net or uploading code to GitHub. He also curates the Devops Weekly newsletter and occasionally organises community events.",
     "abstract": "How often do you have a full penetration test done on your application? How often do you deploy changes to your application? This talk is for everyone who worries about the difference between the answers to those two questions.<br /><br />Penetration testing and other forms of security testing are often a mystery to developers and operations people alike, a specialist skill available only on the largest projects. With lots of good open source penetration testing tools available  it doesn't have to be that way, especially if we can turn some of those tools into things we run constantly from our monitoring system.<br /><br />This talk will:<br /><br /><ul><li>Identify security relevant metrics from a few tools available in a typical web stack</li><li>Suggest a few more useful system tools which provide both protection and metrics</li><li>Highlight a number of open source penetration testing tools, and show a few of them in use</li><li>Find out which of those tools lend themselves to automation</li><li>Bring it all together in a modern monitoring system</li></ul><br />After the talk the audience will hopefully be:<br /><br /><ul><li>Scared of putting things on the internet</li><li>Wanting to install a few simple tools that provide some protection</li><li>Aware of a number of penetration testing tools they can use with their monitoring systems</li></ul>",
-    "videos": [],
+    "videos": ["75665772"],
     "hash": "98234c645fe8c935edc0fec0186d28b8"
   },
   {
@@ -176,7 +176,7 @@ var speakers = [
     "twitter": "postwait",
     "bio": "Theo Schlossnagle is a Founder and Principal at OmniTI where he designs and implements scalable solutions for highly trafficked sites and other clients in need of sound, scalable architectural engineering. He is the architect of the highly scalable Ecelerity mail transport agent. Theo is a participant in various open source communities including OpenSolaris, Linux, Apache, PostgreSQL, perl, and many others. He is a published author in the area of scalability and distributed systems as well as a veteran speaker in the open source conference circuit.<br /><br />Theo founded several successful startups as engineering focused organizations including: OmniTI, Circonus, Message Systems and Fontdeck.",
     "abstract": "I plan to talk about the hard future that monitoring platforms face.  What people will expect from these systems as they become more broadly useful within organizations and how developers and today's users need to change to make this both painless and successful.",
-    "videos": [],
+    "videos": ["75428402"],
     "hash": "a23d0bf95d6eeb2d848512f198cad190"
   },
   {
@@ -194,7 +194,7 @@ var speakers = [
     "twitter": "rmspagnolo",
     "bio": "Reza has been exploring for the past few years how IaaS and PaaS look like on the other side of the cloud. Before that, he was responsible for bringing ideas from paper to production for several startups of the web and mobile industries. Fusing development and operations together is the only approach to building systems that has ever made sense to him and he enjoys now taking the practice to the next level as an AWS engineer.",
     "abstract": "Adaptive Application Architecture<br /><br />Principles of system design to proactively leverage monitoring data<br /><br />Monitoring systems are nowadays still seen as passive actors layered atop independently developed system architectures. They are often not considered as an integral and active component of a design: they are rather used as a safety net whose main purpose is to trigger human interaction with a system in case of suspect failure or to provide more insight when analyzing such system performance and functional behavior.<br /><br />Although these are undoubtedly positive connotations, monitoring systems can provide greater advantage to the design of a system when their functionality is fully integrated in the system architecture, when they are considered a fully fledged actor within.",
-    "videos": [],
+    "videos": ["75661382"],
     "hash": "885b20f047883867d98de21dce6c2e83"
   },
   {
@@ -212,7 +212,7 @@ var speakers = [
     "twitter": "jeff_weinstein",
     "bio": "Jeff Weinstein is a data analytics engineer at Groupon working on monitoring and insight using real-time and large scale batch infrastructure. Previously, he was President at Hyperpublic, a local merchant data platform startup (acquired by Groupon), and prior led the R&D group at comScore analyzing lots of web logs. He hopes to humanize data analytics.",
     "abstract": "How can devops inspire datas scientists, executives, and business analysts?<br /><br />Operations has created techniques for logging, monitoring, alerting, anomaly detection and visualization. We’ve been able to measure and understand complex technical systems and help give order to production chaos. I’d like to discuss, question and suggest how we can use these practices to better the other areas within our organizations, strengthen their relationship with operations and challenge the way the business views devops.<br /><br />We should be able to use the same platforms for reviewing the state of our data center as we do the state of the larger business. The data being created is important to the business and is already flowing through our measurement systems. We need flexible data systems that allow engineers and others to view, query and understand the state of the business as well as the technical, operational and performance metrics. I will outline a few steps each business can take to bridge the gap between these groups.",
-    "videos": [],
+    "videos": ["75663399"],
     "hash": "3fd785240b555cdbb0d3465c00b79a30"
   },
   {
@@ -221,7 +221,7 @@ var speakers = [
     "twitter": "harrywincup",
     "bio": "Harry Wincup created the new Server Density UI and is responsible for the frontend engineering behind it, including building a custom backbone.js framework (before the likes of marionette existed). Recently he's been creating visualisations for large server deployments, health checking and incident management.",
     "abstract": "",
-    "videos": [],
+    "videos": ["75484249"],
     "hash": "e6f723dbccce896713eaaf7004944755"
   }
 ]
