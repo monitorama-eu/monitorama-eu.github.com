@@ -6,6 +6,7 @@ var speakers = [
     "bio": 'Dylan Richard is the full-bearded technologist who, as Director for Engineering, quietly led the 40 engineers of Obama for America’s Technology team to victory in 2012. Previously, he helmed technical teams as Vice President of Engineering at skinnyCorp (home of threadless.com) and was a Senior Developer at Crate & Barrel. Dylan lives in Chicago, Illinois, with his patient wife, Sarah, two amazing sons, a cat, and a rotating stable of old diesel VWs. His possible favorite claim to fame is having his chest-length beard proclaimed “fierce” by President Barack Obama.',
     "abstract": "",
     "videos": ["75176595"],
+    "slides": ["https://speakerdeck.com/monitorama/berlin-2013-keynote-dylan-richard"],
     "hash": "4b1cdbcad65fbd94eec315104b9800cf"
   },
   {
@@ -33,6 +34,7 @@ var speakers = [
     "bio": "Devdas Bhagat is a system and network administrator with over a decade of experience. His skillset ranges from small corporate environments with a few tens of users, to large scale ISP systems with a few million users. He has dabbled in email, DNS, monitoring, and database administration, along with the occasional bit of web server configuration, security stuff and network management (along with writing the occasional bit of code).<br /><br /> He is a regular speaker at conferences like SANOG, LCA and APRICOT. Devdas currently works at Booking.com, where he is responsible for the automation of the monitoring system, the Graphite setup, and the odd other bits and pieces of messaging infrastructure and DNS.",
     "abstract": "",
     "videos": [],
+    "slides": ["https://speakerdeck.com/monitorama/berlin-2013-big-graphite-workshop-devdas-bhagat"],
     "hash": "c7e7bc7e9c13c425d05f7e0076b9900b",
   },
   {
@@ -42,6 +44,7 @@ var speakers = [
     "bio": "Katherine is an operations engineer at GameChanger.io, where she focuses on automation and monitoring while occasionally dabbling in beer-driven development. Before escaping to the world of operations at NYC-based startups, she spent a few years doing QA and systems engineering in the corporate world. She lives in Brooklyn with a perfectly reasonable number of cats, and in her spare time can often be found rock climbing or making hot sauce.",
     "abstract": "Staring at graphs/dashboards 24/7 is the wrong way to approach monitoring. What are the cultural and technical aspects of what can lead to that, and how can you get away from that state if you find yourself there? As part of a discussion on culture and tools best practices, I'll also talk about scaling up operations and monitoring as your company/product grows in size and complexity.",
     "videos": ["75190339"],
+    "slides": ["https://speakerdeck.com/monitorama/berlin-2013-session-katherine-daniels"],
     "hash": "dd0081cd62e25c796f50e1401132b19c"
   },
   {
@@ -60,6 +63,7 @@ var speakers = [
     "bio": "Florian has been passionate about monitoring and statistics for years - his first open source projects were log analysers. He started the collectd project in 2005 while studying computer science in Erlangen, Germany. Florian is currently working as a Site Reliability Engineer for Google and still hacking on free software projects in his spare time.",
     "abstract": "",
     "videos": [],
+    "slides": ["https://speakerdeck.com/monitorama/berlin-2013-collectd-workshop-florian-forster"],
     "hash": "b2f1c54b9a6cdf618a033407a245afb4"
   },
   {
@@ -69,6 +73,7 @@ var speakers = [
     "bio": "Radu is a software engineer at Sematext, where he enjoys working on Logsene, a log analytics product. He is the co-author of <em>Elasticsearch in Action</em>. He also enjoys dancing the jive with his wife, and doing jam sessions with his son.",
     "abstract": "This talk is about centralizing gazillions of logs and doing real-time search and analytics on them. We'll explore how Elasticsearch can act as a horizontally scalable data store for your logs that enables you to search and analyze seriously big data in real-time. We'll also answer some important questions, such as:<br /><br /><ul><li>When does structuring my logs, such as putting them in JSON format, help? When should I not do it?</li><li>What can I use to ship both structured and unstructured logs to Elasticsearch? What about the existing syslog daemon?</li><li>How do sysklogd, syslog-ng, and rsyslog compare in this context? Which one should I use and why?</li><li>What can I use to dig into my logs and visualize them once they're in?</li><li>Are there alternatives to Elasticsearch for log analytics? How about Logstash alternatives?</li></ul>",
     "videos": ["75665562"],
+    "slides": ["https://speakerdeck.com/monitorama/berlin-2013-session-radu-gheorghe"],
     "hash": "2164d281261ff5f5a239a9ccd5bdcad4"
   },
   {
@@ -78,6 +83,7 @@ var speakers = [
     "bio": "David Goodlad is a Canadian developer living in Australia, hacking on ops and systems as operations lead for the Envato marketplaces. He has a terrible obsession with tools, and loves automating everything from tiny embedded systems driving hvac equipment all the way up to racks full of servers.",
     "abstract": "Infrastructure is Secondary<br /><br />It’s 3am, and your phone has rudely awakened you with the message &quot;ALERT: load average on myapp-backend01 is above 0.8&quot;. Does that mean anything to your users or your customers? Instead, what if you got to sleep through the night because that high load average wasn’t a real problem: you were just serving a bit more traffic than usual?<br /><br />This talk will discuss the merits of measuring and monitoring your business first and your infrastructure second. It will cover strategies for deciding what to measure, methods for measuring those things, and how to use them to make good operational decisions.",
     "videos": ["75664601"],
+    "slides": ["https://speakerdeck.com/monitorama/berlin-2013-session-david-goodlad"],
     "hash": "f9336c3f47cfcde2389a4329d976c5b9"
   },
   {
@@ -96,6 +102,7 @@ var speakers = [
     "bio": "Oliver Hankeln is working as Senior Engineer - Data and Infrastructure at gutefrage.net GmbH. After several years of working as a software developer at various projects he switched to operations side of things, but still knows the needs of development.<br /><br />Oliver Hankeln therefore is a strong supporter of the DevOps idea, since even before that name was invented.",
     "abstract": "In this talk I will show you why metrics are not an operations-guys-only endeavor but why you as a software developer can benefit from having graphs about how your software performs in the real world.<br /><br />I'll explain why it is important to have a system in place where creating new metrics is easy and will introduce you to the system (OpenTSDB) that we use at gutefrage.net to graph more than 150M data points per day for thousands of metrics. Also you'll see how you can use tools like Skyline from Etsy to automatically detect anomalies in your graphs, or how you can fingerprint your metrics to find correlating metrics.<br /><br />I will then explore what you can and should graph besides the obvious performance metrics. I'll show some creative and inspiring metrics that will help you to get a real feel for your product and for the organisation you are working in. You'll see lots of live graphs of Germanys biggest Q&A-platform in action, and will hopefully go home after this talk, eager to measure the whole world around you, because &quot;what gets measured gets managed&quot;.",
     "videos": ["75664048"],
+    "slides": ["https://speakerdeck.com/monitorama/berlin-2013-session-oliver-hankeln"],
     "hash": "9ae476afc19aa16af1d0ca6d31fbdfde"
   },
   {
@@ -105,6 +112,7 @@ var speakers = [
     "bio": "Lindsay Holmwood is a engineering manager living in the Australian Blue Mountains. He runs a distributed infracoders team at Bulletproof that builds hassle free tools, and was responsible for ensuring 100% uptime for the 2010 + 2011 + 2012 Movember campaigns. In his spare time, Lindsay organises the monthly Sydney DevOps Meetups. He also won third place at the 1996 Sydney Royal Easter Show LEGO building competition.",
     "abstract": "The psychology of alert design<br /><br />It's 3:37am. Your phone starts buzzing. It doesn't stop. 1000s of alerts. All the things are broken. Where do you even begin?<br /><br />You freeze.<br /><br />The infrastructure we're operating are increasingly complex and nuanced. Events at one edge can have unintended and unpredictable effects on the other, and there is no obvious causal relationship. This makes debugging failure hard.<br /><br />Good alert design is important to lowering the MTTR when our complex infrastructures fail, but what constitutes a &quot;good alert&quot;? Our brains work in unexpected ways, with cognitive biases and priming skewing our perception of reality. It's vitally important to understand how we think and react under pressure when designing alerts and communicating failure.<br /><br />In this talk, Lindsay will showcase some of the psychological underpinnings you should take into account when designing your alerts, how other industries handle alert design, and what tools are available to increase your operational effectiveness in the face of massive failures today.",
     "videos": ["75321812"],
+    "slides": ["https://speakerdeck.com/monitorama/berlin-2013-session-lindsay-holmwood"],
     "hash": "fad1e9ed293fc5b3ec7d4abdffeb636f"
   },
   {
@@ -114,6 +122,7 @@ var speakers = [
     "bio": "Jarkko Laine is a co-founder and jack of all trades at bearmetal.eu. He became one of the the early Ruby on Rails evangelists in Europe after semi-accidentally ending up body-doubling DHH in a Rails tutorial in EuroOSCON 2005. He's since written two books on the subject, <em>Unobtrusive Prototype</em> and <em>Beginning Ruby on Rails E-Commerce</em>.<br /><br />Jarkko spent the past five years as part of the team that built Wildfire App from scratch to serving large part of Fortune 50 companies before it was sold to Google last year. As an orienteer, he has an insatiable thirst to learn more about the human mind, body, and especially their co-operation. When not running aimlessly around the woods, Jarkko now helps founders build profitable web businesses as part of the Bear Metal team.",
     "abstract": "Let your data tell a story<br /><br />Do you have that nagging feeling that your data tries to tell you something, you just can't figure out what? Missed that cue in your analytics dashboard that could've prevented a disaster? How can you prevent that in the future?<br /><br />While modern data visualizations have made wonders in helping us make sense of all the data we collect, we can do better. The human brain is primed to detect certain kinds of flags and unless we take advantage of that, we are prone to crapflood our brain to death and thus miss important things our data has to tell.<br /><br />In this talk we'll take a look at what recent studies in psychology and brain research have discovered about the human brain and behavior. Equipped with this knowledge we'll learn how we can hack ourselves and our monitoring systems to better take advantage of the data we're provided.",
     "videos": ["75318590"],
+    "slides": ["https://speakerdeck.com/monitorama/berlin-2013-session-jarkko-laine"],
     "hash": "82476266af9d460415d8f1fc16bb54ed"
   },
   {
@@ -123,6 +132,7 @@ var speakers = [
     "bio": "Brad Lhotsky programs Perl and throws large amounts of data into PostgreSQL databases and ElasticSearch indexes in search of meaning.  He often ponders why security is seen as a roadblock to development and operations while trying ever so hard to automate himself out of a job.  Brad has 14 years of experience in operations and development and is currently leading a small team at Booking.com making security more agile.",
     "abstract": "A quick look inside the ups and downs of gathering logging data into ElasticSearch.  After a very brief introduction to the ecosystem, we'll explore some horror stories, lessons learned, and walk away with a clear picture of why it's worth it.",
     "videos": ["75661994"],
+    "slides": ["https://speakerdeck.com/monitorama/berlin-2013-session-brad-lhotsky"],
     "hash": "8d96f5c273062cb617255e630fe0705c"
   },
   {
@@ -132,6 +142,7 @@ var speakers = [
     "bio": "Mark is CTO at Heroku, the cloud application platform, where he's responsible for technology strategy and architecture. In his role Mark draws on his experience as a cloud infrastructure engineer and product architect. Mark has been an active contributor to the open source community, including as the creator of the Ring web library and the <em>Go by Example</em> online book. He graduated from Bowdoin College with an A.B. in Mathematics and Computer Science.",
     "abstract": "This talk is about making systems better by having fewer of them. It looks at two themes:<br /><br /><ul><li>&quot;The best systems are used constantly&quot;</li><li>&quot;Everything is a _&quot;, for various values of _</li></ul><br />We'll show how these themes apply to some specific aspects of monitoring.",
     "videos": ["75189473"],
+    "slides": ["https://speakerdeck.com/monitorama/berlin-2013-session-mark-mcgranaghan"],
     "hash": "3423442e7b51da238e663b343169b756"
   },
   {
@@ -141,6 +152,7 @@ var speakers = [
     "bio": "Mikhail is a co-founder at Opsmatic, a startup dedicated to improving the tools available to operators at companies of all sizes. For inspiration and motivation, he draws on his experiences working with and around ops teams at Urban Airship, SimpleGeo, Flickr and Yahoo!. When not stressing out about computers, he's learning to surf, playing soccer, thinking of what else could be wall-mounted in his apartment, or just kicking back with good friends and good drink.",
     "abstract": "Much time and mindshare is dedicated to monitoring. Primarily monitoring is associated with looking at numbers over time and, if alerting is included under the monitoring umbrella, being alerted when those numbers don't behave the way we expect them to. However, only looking at numbers and service states leaves us with just the tip of the iceberg.<br /><br />We will look at how our alerts and numbers can be enhanced greatly by adding some context from non-numeric, and non-binary observations. We will fantasize about what our tools might look like if we tried to surround ourselves with helpful contextual information, as well as look at some concrete examples.",
     "videos": ["75319951"],
+    "slides": ["https://speakerdeck.com/monitorama/berlin-2013-session-mikhail-panchenko"],
     "hash": "127b5dbc702c58a40ee060044427ef1e"
   },
   {
@@ -150,6 +162,7 @@ var speakers = [
     "bio": "Zefops, gymops. Clojure / Ruby / C hacker. @ClojureWerkz core team. Data analysis & visualization nerd. Constantly thinking of new ways to make things more visible, predictable and stable.",
     "abstract": "Monitoring is sometimes approached as something related strictly to the technological assets. People monitor memory, CPU usage, latency, response times, queue sizes, cache miss frequencies and so on. All these things are extremely important, but there are many more things that can provide direct value for the business and give an insight would have been impossible otherwise.<br /><br />Having a toolchain that helps to easily dispatch, aggregate, store, redistribute and mine events changes the way everything ticks. Developers start measuring what's important for them, ops have a better insight and historical overview, marketing people see response to campaigns.<br /><br />For past two years we've been working on several applications that required such insights, and we formed a universal toolkit for everything mentioned here. We're working hard to make it best possible and open source it as soon as possible, in a meanwhile we can only reveal parts of it and tell how it all evolved.",
     "videos": ["75662796"],
+    "slides": ["https://speakerdeck.com/monitorama/berlin-2013-session-alex-petrov"],
     "hash": "c1a634a6db1049a4b98b365f63a5fd97"
   },
   {
@@ -159,6 +172,7 @@ var speakers = [
     "bio": "Principal Architect at https://exoscale.ch, the leading swiss public IAAS service. Recovering operations engineer now focused on building distributed systems, with a a knack for monitoring, visibility and instrumentation. Member of the OpenBSD and Collectd development teams.",
     "abstract": "",
     "videos": [],
+    "slides": ["https://speakerdeck.com/monitorama/berlin-2013-riemann-workshop-pierre-yves-ritschard"],
     "hash": "2fcc875f98607b3007909fe4be99160d"
   },
   {
@@ -168,6 +182,7 @@ var speakers = [
     "bio": "Gareth Rushgrove is a technical architect at the Government Digital Service, part of the UK Government. He is mainly interested in configuration management, infrastructure and platform as a service, automation and the whole devops community. He thinks when used well together these allow you to move really fast, even in tightly controlled environments like Government. When not working, Gareth can be found blogging over on morethanseven.net or uploading code to GitHub. He also curates the Devops Weekly newsletter and occasionally organises community events.",
     "abstract": "How often do you have a full penetration test done on your application? How often do you deploy changes to your application? This talk is for everyone who worries about the difference between the answers to those two questions.<br /><br />Penetration testing and other forms of security testing are often a mystery to developers and operations people alike, a specialist skill available only on the largest projects. With lots of good open source penetration testing tools available  it doesn't have to be that way, especially if we can turn some of those tools into things we run constantly from our monitoring system.<br /><br />This talk will:<br /><br /><ul><li>Identify security relevant metrics from a few tools available in a typical web stack</li><li>Suggest a few more useful system tools which provide both protection and metrics</li><li>Highlight a number of open source penetration testing tools, and show a few of them in use</li><li>Find out which of those tools lend themselves to automation</li><li>Bring it all together in a modern monitoring system</li></ul><br />After the talk the audience will hopefully be:<br /><br /><ul><li>Scared of putting things on the internet</li><li>Wanting to install a few simple tools that provide some protection</li><li>Aware of a number of penetration testing tools they can use with their monitoring systems</li></ul>",
     "videos": ["75665772"],
+    "slides": ["https://speakerdeck.com/monitorama/berlin-2013-session-gareth-rushgrove"],
     "hash": "98234c645fe8c935edc0fec0186d28b8"
   },
   {
@@ -177,6 +192,7 @@ var speakers = [
     "bio": "Theo Schlossnagle is a Founder and Principal at OmniTI where he designs and implements scalable solutions for highly trafficked sites and other clients in need of sound, scalable architectural engineering. He is the architect of the highly scalable Ecelerity mail transport agent. Theo is a participant in various open source communities including OpenSolaris, Linux, Apache, PostgreSQL, perl, and many others. He is a published author in the area of scalability and distributed systems as well as a veteran speaker in the open source conference circuit.<br /><br />Theo founded several successful startups as engineering focused organizations including: OmniTI, Circonus, Message Systems and Fontdeck.",
     "abstract": "I plan to talk about the hard future that monitoring platforms face.  What people will expect from these systems as they become more broadly useful within organizations and how developers and today's users need to change to make this both painless and successful.",
     "videos": ["75428402"],
+    "slides": ["https://speakerdeck.com/monitorama/berlin-2013-session-theo-schlossnagle"],
     "hash": "a23d0bf95d6eeb2d848512f198cad190"
   },
   {
@@ -186,6 +202,7 @@ var speakers = [
     "bio": "I spend my days solving problems in Heroku's distributed computing environment. In previous days, I studied math at the university of Missouri Kansas City.",
     "abstract": "Predictable Failure<br /><br />Software fails. In this talk we will take a roundabout path to understanding what we can do to have our systems fail in systematic and predictable ways. If we understand and embrace our systems weaknesses we can greet disaster with the knowledge and ability to prevail against it. This talk is recommended to anyone who operates software or is an armchair airplane disaster analyst.",
     "videos": ["75304752"],
+    "slides": ["https://speakerdeck.com/monitorama/berlin-2013-session-ryan-smith"],
     "hash": "8964943d31146bd35d3d305ff940beca"
   },
   {
@@ -195,6 +212,7 @@ var speakers = [
     "bio": "Reza has been exploring for the past few years how IaaS and PaaS look like on the other side of the cloud. Before that, he was responsible for bringing ideas from paper to production for several startups of the web and mobile industries. Fusing development and operations together is the only approach to building systems that has ever made sense to him and he enjoys now taking the practice to the next level as an AWS engineer.",
     "abstract": "Adaptive Application Architecture<br /><br />Principles of system design to proactively leverage monitoring data<br /><br />Monitoring systems are nowadays still seen as passive actors layered atop independently developed system architectures. They are often not considered as an integral and active component of a design: they are rather used as a safety net whose main purpose is to trigger human interaction with a system in case of suspect failure or to provide more insight when analyzing such system performance and functional behavior.<br /><br />Although these are undoubtedly positive connotations, monitoring systems can provide greater advantage to the design of a system when their functionality is fully integrated in the system architecture, when they are considered a fully fledged actor within.",
     "videos": ["75661382"],
+    "slides": ["https://speakerdeck.com/monitorama/berlin-2013-session-reza-spagnolo"],
     "hash": "885b20f047883867d98de21dce6c2e83"
   },
   {
@@ -204,6 +222,7 @@ var speakers = [
     "bio": "Abe is a data engineer at Etsy and he lives in Brooklyn. He wrote Skyline, but more importantly, commitlogsfromlastnight.com - the premier software for monitoring curses in your commit logs. Previously, he monitored users at Chartbeat. He once wrote a service to monitor course openings for undergraduate class registration. He monitors Twitter at @abestanway.",
     "abstract": "Algorithms suck, and Here's Why!<br /><br />The holy grail of monitoring is a smart system that uses algorithms to think for itself and decide what is anomalous and what is not, with minimal input from the human. In this talk, I will go in-depth into the current state of the art in anomaly detection algorithms, why they @#$% suck, and how we can start making them better.<br /><br />Warning: meaty, juicy statistics lie within!",
     "videos": ["75183236"],
+    "slides": ["https://speakerdeck.com/monitorama/berlin-2013-session-abe-stanway", "https://speakerdeck.com/monitorama/berlin-2013-kale-workshop-abe-stanway"],
     "hash": "6601d82cf1b6776afd9c31f3d18294c3"
   },
   {
@@ -213,6 +232,7 @@ var speakers = [
     "bio": "Jeff Weinstein is a data analytics engineer at Groupon working on monitoring and insight using real-time and large scale batch infrastructure. Previously, he was President at Hyperpublic, a local merchant data platform startup (acquired by Groupon), and prior led the R&D group at comScore analyzing lots of web logs. He hopes to humanize data analytics.",
     "abstract": "How can devops inspire datas scientists, executives, and business analysts?<br /><br />Operations has created techniques for logging, monitoring, alerting, anomaly detection and visualization. We’ve been able to measure and understand complex technical systems and help give order to production chaos. I’d like to discuss, question and suggest how we can use these practices to better the other areas within our organizations, strengthen their relationship with operations and challenge the way the business views devops.<br /><br />We should be able to use the same platforms for reviewing the state of our data center as we do the state of the larger business. The data being created is important to the business and is already flowing through our measurement systems. We need flexible data systems that allow engineers and others to view, query and understand the state of the business as well as the technical, operational and performance metrics. I will outline a few steps each business can take to bridge the gap between these groups.",
     "videos": ["75663399"],
+    "slides": ["https://speakerdeck.com/monitorama/berlin-2013-session-jeff-weinstein"],
     "hash": "3fd785240b555cdbb0d3465c00b79a30"
   },
   {
