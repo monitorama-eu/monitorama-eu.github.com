@@ -1,14 +1,8 @@
 
-// resize splash on load
-var width = $(window).width();
-var height = $(window).height();
-console.log('setting width to ' + width + ' and height to ' + height);
-$('div.splash').css('height', height);
-
 // alert older MSIE browsers
 if (($.browser.msie) && ($.browser.version <= 8.0)) {
   alert('Your browser does not support HTML5, which is required for this site.\nRedirecting you to the official Registration site now.')
-  window.location.href = 'http://monitorama-eu.eventbrite.com/';
+  window.location.href = 'http://monitorama.eventbrite.com/';
 }
 
 // render view according to hash
@@ -21,29 +15,45 @@ var setSection = function(name) {
   window.scrollTo(0,0);
 }
 
-// load view by click
-$('header ul li').on('click', 'a', function() {
+// load view by click from navbar
+$('header ul li.internal').on('click', 'a', function() {
   var sid = ($(this).attr('id'));
   setSection(sid);
   return false;
 });
+
+// load view by click from footer
+$('footer ul li.internal').on('click', 'a', function() {
+  var sid = ($(this).attr('id'));
+  setSection(sid);
+  return false;
+});
+
+// load view by click from ribbon
+$('.ribbon').on('click', 'a', function() {
+  var sid = ($(this).attr('id'));
+  setSection(sid);
+  return false;
+})
 
 // load view by anchor
 if (window.location.hash.length !== 0) {
   setSection(window.location.hash.replace('#', ''));
 }
 
+// boilerplate form handler
 var formHandler = function (url) {
   return function () {
     var data = {};
     var parent = $(this).parent();
-    var inputs = parent.find('input, textarea');
+    var inputs = parent.find('.form-input');
     for (var i=0; i<inputs.length; i++) {
       data[inputs[i].name] = inputs[i].value;
     }
     var thanks = function (response) {
-      parent.parent().find('p, form').css('display', 'none');
-      parent.parent().append('<span class="success">Thanks for your submission!</span>');
+      parent.parent().parent().find('p, form, ul').css('display', 'none')
+      parent.parent().removeClass('text-left').addClass('text-center');
+      parent.parent().append('<span class="success">Thanks for your submission! Please check your inbox for a confirmation email.</span>');
     }
     $.post(url, data, thanks).fail(thanks);
     return false;
@@ -51,47 +61,67 @@ var formHandler = function (url) {
 }
 
 // submit CFP form
-$('.demos .signup form').on('click', 'a', formHandler('https://docs.google.com/a/m.aier.us/forms/d/1QfIOleC_dIM7dg5gIw5Bjdk-R8PfgZl8qAlsRVtumXk/formResponse'));
+$('.cfp .signup form').on('click', 'a', formHandler('https://judy-ams-2018.herokuapp.com/abstracts/new'));
 
-// submit 5k form
-$('.run .signup form').on('click', 'a', formHandler('https://docs.google.com/a/m.aier.us/forms/d/19Wmg2FvtQCciFXzNUojWIreHkvPysyLisL7gEMUKnP4/formResponse'));
+// function to sort speakers by surname
+function compare(a,b) {
+  nameA = a.name.split(' ')
+  lastNameA = a.simple_last_name || nameA[nameA.length - 1]
+  nameB = b.name.split(' ')
+  lastNameB = b.simple_last_name || nameB[nameB.length - 1]
+  if (lastNameA < lastNameB)
+    return -1;
+  else if (lastNameA > lastNameB)
+    return 1;
+  else
+    return 0;
+}
+
+// sort speakers
+speakers = rawSpeakers.sort(compare)
 
 // iterate through speakers
 for (var i in speakers) {
   var image = '<img src="http://www.gravatar.com/avatar/' + speakers[i].hash + '" />';
-  var name = '<span class="name">' + speakers[i].name + '</span>';
+  var name = '<span class="name">' + speakers[i].name;
+  if (speakers[i].keynote == true) {
+    name += ' - Keynote';
+  }
+  name += '</span>';
   var github = '';
   if (speakers[i].github.length > 0) {
     github = '<span class="github"><a href="https://github.com/' +
-      speakers[i].github + '" target="_new">github</a></span>';
+      speakers[i].github + '" target="_new"><i class="fa fa-github-alt"></i></a></span>';
   }
-  var twitter = '<span class="twitter"><a href="https://twitter.com/' +
-    speakers[i].twitter + '" target="_new">twitter</a></span>';
-  var bio = '<p class="bio">' + speakers[i].bio + '</p>';
+  var twitter = '';
+  if (speakers[i].twitter.length > 0) {
+    twitter = '<span class="twitter"><a href="https://twitter.com/' +
+      speakers[i].twitter + '" target="_new"><i class="fa fa-twitter"></i></a></span>';
+  }
   var video = '';
+  if (speakers[i].video.length > 0) {
+    video = '<span class="video"><a href="' +
+      speakers[i].video + '" target="_new"><i class="fa fa-video-camera"></i></a></span>';
+  }
   var slides = '';
-
-  if (speakers[i].videos) {
-    for (var j in speakers[i].videos) {
-      video += '<iframe class="video" src="http://player.vimeo.com/video/' + speakers[i].videos[j] + '" width="763" height="375" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>';
-    }
+  if (speakers[i].slides.length > 0) {
+    slides = '<span class="slides"><a href="' +
+      speakers[i].slides + '" target="_new"><i class="fa fa-slideshare"></i></a></span>';
   }
 
-  if (speakers[i].slides) {
-    for (var j in speakers[i].slides) {
-      slides += '<span class="slides"><a href="' + speakers[i].slides[j] + '" target="_new">slides</a></span>';
-    }
-  }
+  var bio = '<p class="bio">' + speakers[i].bio + '</p>';
 
-  // populate speaker blocks
-  $('section.speakers ul').append('<li class="speaker">' + image + name + slides + twitter + github + bio + video + '</li>');
+  $('section.speakers ul').append('<li class="speaker">' + image + name + slides + video + twitter + github + bio + '</li>');
+
+  // populate titles for schedule
+  if (speakers[i].title.length > 0) {
+    $('.schedule span.speaker:contains(' + speakers[i].name + ')').parent().find('h5').html(speakers[i].title);
+  }
 
   // populate abstracts for schedule
-  if (speakers[i].abstract.length > 0) {
-    $('section.schedule td.session:contains(' + speakers[i].name + ')').append(
-      '<span class="hidden abstract"><span class="name">' + speakers[i].name + '</span><hr />' + speakers[i].abstract + '</span>'
-    );
-  }
+  //if (speakers[i].abstract.length > 0) {
+  //  $('.schedule span.speaker:contains(' + speakers[i].name + ')').parent().find('h5').html(speakers[i].abstract);
+  //}
 
   // display abstracts on hover
   $('section.schedule').on('mouseenter', 'td.session', function() {
@@ -99,4 +129,28 @@ for (var i in speakers) {
   }).on('mouseleave', 'td.session', function() {
     $(this).children('span').addClass('hidden');
   });
+}
+
+// hide sponsors title and list if empty
+if (sponsors.length === 0) {
+  $($('.sponsors h4')[0]).addClass('hidden');
+  $('.sponsors div.sponsors').addClass('hidden');
+} else {
+  $($('.sponsors h4')[0]).removeClass('hidden');
+  $('.sponsors div.sponsors').removeClass('hidden');
+}
+
+// iterate through sponsors
+for (var i in sponsors) {
+  if (sponsors[i].name.length && sponsors[i].enabled && sponsors[i].url.length && sponsors[i].bio.length) {
+    var width = sponsors[i].width || 200;
+    $('section.sponsors div.sponsors').append(
+      '<div class="sponsor">' +
+        '<a href="' + sponsors[i].url + '" target="_blank">' + '<img src="images/logo_' + sponsors[i].name + '.png" width="' + width + '" /></a>' +
+        sponsors[i].bio +
+      '</div>'
+    );
+
+    $('div.marquee').append('<a href="' + sponsors[i].url + '" target="_blank">' + '<img src="images/logo_' + sponsors[i].name + '.png" /></a>');
+  }
 }
