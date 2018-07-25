@@ -79,53 +79,55 @@ speakers = rawSpeakers.sort(compare)
 
 // iterate through speakers
 for (var i in speakers) {
-  var image = '<img src="http://www.gravatar.com/avatar/' + speakers[i].hash + '" />';
-  var name = '<span class="name">' + speakers[i].name;
-  if (speakers[i].keynote == true) {
-    name += ' - Keynote';
-  }
-  name += '</span>';
-  var github = '';
-  if (speakers[i].github.length > 0) {
-    github = '<span class="github"><a href="https://github.com/' +
-      speakers[i].github + '" target="_new"><i class="fa fa-github-alt"></i></a></span>';
-  }
-  var twitter = '';
-  if (speakers[i].twitter.length > 0) {
-    twitter = '<span class="twitter"><a href="https://twitter.com/' +
-      speakers[i].twitter + '" target="_new"><i class="fa fa-twitter"></i></a></span>';
-  }
-  var video = '';
-  if (speakers[i].video.length > 0) {
-    video = '<span class="video"><a href="' +
-      speakers[i].video + '" target="_new"><i class="fa fa-video-camera"></i></a></span>';
-  }
-  var slides = '';
-  if (speakers[i].slides.length > 0) {
-    slides = '<span class="slides"><a href="' +
-      speakers[i].slides + '" target="_new"><i class="fa fa-slideshare"></i></a></span>';
-  }
+  if (speakers[i].hash.length > 0 && speakers[i].bio.length > 0) {
+    var image = '<img src="http://www.gravatar.com/avatar/' + speakers[i].hash + '" />';
+    var name = '<span class="name">' + speakers[i].name;
+    if (speakers[i].keynote == true) {
+      name += ' - Keynote';
+    }
+    name += '</span>';
+    var github = '';
+    if (speakers[i].github.length > 0) {
+      github = '<span class="github"><a href="https://github.com/' +
+        speakers[i].github + '" target="_new"><i class="fa fa-github-alt"></i></a></span>';
+    }
+    var twitter = '';
+    if (speakers[i].twitter.length > 0) {
+      twitter = '<span class="twitter"><a href="https://twitter.com/' +
+        speakers[i].twitter + '" target="_new"><i class="fa fa-twitter"></i></a></span>';
+    }
+    var video = '';
+    if (speakers[i].video.length > 0) {
+      video = '<span class="video"><a href="' +
+        speakers[i].video + '" target="_new"><i class="fa fa-video-camera"></i></a></span>';
+    }
+    var slides = '';
+    if (speakers[i].slides.length > 0) {
+      slides = '<span class="slides"><a href="' +
+        speakers[i].slides + '" target="_new"><i class="fa fa-slideshare"></i></a></span>';
+    }
 
-  var bio = '<p class="bio">' + speakers[i].bio + '</p>';
+    var bio = '<p class="bio">' + speakers[i].bio + '</p>';
 
-  $('section.speakers ul').append('<li class="speaker">' + image + name + slides + video + twitter + github + bio + '</li>');
+    $('section.speakers ul').append('<li class="speaker">' + image + name + slides + video + twitter + github + bio + '</li>');
 
-  // populate titles for schedule
-  if (speakers[i].title.length > 0) {
-    $('.schedule span.speaker:contains(' + speakers[i].name + ')').parent().find('h5').html(speakers[i].title);
+    // populate titles for schedule
+    if (speakers[i].title.length > 0) {
+      $('.schedule span.speaker:contains(' + speakers[i].name + ')').parent().find('h5').html(speakers[i].title);
+    }
+
+    // populate abstracts for schedule
+    //if (speakers[i].abstract.length > 0) {
+    //  $('.schedule span.speaker:contains(' + speakers[i].name + ')').parent().find('h5').html(speakers[i].abstract);
+    //}
+
+    // display abstracts on hover
+    $('section.schedule').on('mouseenter', 'td.session', function() {
+      $(this).children('span').removeClass('hidden');
+    }).on('mouseleave', 'td.session', function() {
+      $(this).children('span').addClass('hidden');
+    });
   }
-
-  // populate abstracts for schedule
-  //if (speakers[i].abstract.length > 0) {
-  //  $('.schedule span.speaker:contains(' + speakers[i].name + ')').parent().find('h5').html(speakers[i].abstract);
-  //}
-
-  // display abstracts on hover
-  $('section.schedule').on('mouseenter', 'td.session', function() {
-    $(this).children('span').removeClass('hidden');
-  }).on('mouseleave', 'td.session', function() {
-    $(this).children('span').addClass('hidden');
-  });
 }
 
 // hide sponsors title and list if empty
