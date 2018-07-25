@@ -85,7 +85,7 @@ var rawSpeakers = [
     "abstract": "",
     "video": "",
     "slides": "",
-    "hash": "",
+    "hash": "d05d7fbddd69c91eefaad0b9ec624111",
   },
   {
     "name": "Stephen Strowes",
@@ -118,7 +118,7 @@ var rawSpeakers = [
     "abstract": "",
     "video": "",
     "slides": "",
-    "hash": "",
+    "hash": "8b9eab4b464b091b65578f026a4f8161",
   },
   {
     "name": "Alexis Lê-Quôc",
@@ -129,7 +129,7 @@ var rawSpeakers = [
     "abstract": "",
     "video": "",
     "slides": "",
-    "hash": "",
+    "hash": "c3a42f6c504337f560cb69b9c37df659",
   },
   {
     "name": "Gregory Parker",
@@ -162,7 +162,7 @@ var rawSpeakers = [
     "abstract": "",
     "video": "",
     "slides": "",
-    "hash": "",
+    "hash": "ff1fa420f55d97bcd00c6cdf7faf9db7",
   },
   {
     "name": "Yan Cui",
