@@ -157,7 +157,7 @@ var rawSpeakers = [
     "name": "Bram Vogelaar",
     "github": "attachmentgenie",
     "twitter": "",
-    "bio": "",
+    "bio": "Bram spent the first part of his career as a Molecular Biologist , he then moved on to supporting his peers by building tools and platforms for them with a lot of Open Source technologies, after which he joined Inuits to focus on helping more people to deliver their software with Open Source tools.",
     "title": "Gamification of Chaos Testing",
     "abstract": "",
     "video": "",
