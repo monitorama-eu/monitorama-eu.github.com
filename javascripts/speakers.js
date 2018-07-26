@@ -212,11 +212,11 @@ var rawSpeakers = [
     "name": "Joe Ross",
     "github": "",
     "twitter": "robusteza",
-    "bio": "",
+    "bio": "Joe is a data scientist at SignalFx, where he focuses on time series problems (anomaly detection, forecasting, correlation) that arise in monitoring. He holds a PhD in mathematics from Columbia University and was a researcher and instructor in pure mathematics, most recently at the University of Southern California. He has nine publications in peer-reviewed mathematics/statistics journals and has given talks about his research at conferences and universities throughout the world.",
     "title": "Incremental-decremental Methods For Real-Time Monitoring",
     "abstract": "",
     "video": "",
     "slides": "",
-    "hash": "",
+    "hash": "2c45622ba5e0df7c693b15107d1ef3f5",
   },
 ]
