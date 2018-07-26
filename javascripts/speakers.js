@@ -190,7 +190,7 @@ var rawSpeakers = [
     "name": "Rick Rackow",
     "github": "RiRa12621",
     "twitter": "rira12621",
-    "bio": "During the past year the Site Operations team at eBay Classifieds Group has put massive effort into moving from locally managed infrastructure to a private cloud. With the announcement of eBay Classified Group's new global strategy and the technology center being placed in Berlin, the engineering teams were given the challenge of developing a new and innovative plan to how we build our new product. With many challenges related to the project, one of the biggest was building a platform that was production ready in an extremely short time frame. This talk dives into how we selected our technology stack and the decisions that went into building a stable, highly scalable platform.",
+    "bio": "Starting my professional career as a working student at the eBay Classifieds Group, I was part of a team tasked with build and release engineering as well as continuous integration pipelines for all of the eCG and in particular the teams based in Berlin. Later I joined the SiteOperations Engineering team as systems engineer, being  responsible for all German classifieds platforms. Since the beginning of 2018 I am facing a new challenge to run a completely new platform, containered and scalable with an on-premise OpenStack Cloud.",
     "title": "Nagios, Sensu, Prometheus - Why a change of the framework does not change the mindset",
     "abstract": "",
     "video": "",
