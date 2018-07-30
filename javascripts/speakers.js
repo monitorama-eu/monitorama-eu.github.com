@@ -58,7 +58,7 @@ var rawSpeakers = [
     "name": "Stephen Boak",
     "github": "sboak",
     "twitter": "sboak",
-    "bio": "",
+    "bio": "I'm the Director of Product Design at Datadog. Formerly the Co-founder & CPO at Opsee and an early employee at Boundary and Opsmatic, I've been designing monitoring tools for the last 10 years. What's kept me around is the passion and dedication of the engineers I work with, building tools for each other that push the craft of making software forward.",
     "title": "Rethinking UX for AI-driven Monitoring Tools",
     "abstract": "",
     "video": "",
