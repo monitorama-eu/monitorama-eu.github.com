@@ -80,7 +80,7 @@ var rawSpeakers = [
     "name": "Rafał Kuć",
     "github": "gr0",
     "twitter": "kucrafal",
-    "bio": "",
+    "bio": "Software engineer, trainer, consultant and author from time to time - some would say that he is an all in one battle weapon concentrated mostly on Lucene, Solr and Elasticsearch. However he also likes all the other cool stuff that is happening in the IT world. Likes to share his knowledge by giving talks at various meet ups and conferences.",
     "title": "Is observability good for our brain? How about post-mortems?",
     "abstract": "",
     "video": "",
