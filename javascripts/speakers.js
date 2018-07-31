@@ -113,7 +113,7 @@ var rawSpeakers = [
     "name": "Quintessence Anx",
     "github": "quintessence",
     "twitter": "QuintessenceAnx",
-    "bio": "",
+    "bio": "Quintessence has worked in the IT community for over 10 years, including as a database administrator and a DevOps / Cloud / Infrastructure engineer. She was a core contributor to Stark & Wayne's SHIELD project, which adds backup functionality to Cloud Foundry, as well as a technical reviewer for Learning Go Programming published by Packt Publishing. Currently she is the US Developer Advocate for Logz.io and is focusing on DevOps education and community engagement. Outside of work she helps women launch careers in development as a chapter leader of Girl Develop It Buffalo.",
     "title": "Unquantified Serendipity: Diversity in Development",
     "abstract": "",
     "video": "",
