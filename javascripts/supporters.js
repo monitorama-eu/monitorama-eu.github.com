@@ -49,6 +49,7 @@ var sponsors = [
     "name": "livemon",
     "enabled": true,
     "url": "https://www.livemon.com/",
+    "width": 175,
     "bio": "<p>LiveMon is a cloud-based monitoring software designed for IT teams, Devops, CIO, Infrastructure & Application Directors. We monitor all types of environments from one server to over 100,000 severs with heterogeneous application sets to provide a unified view of all the interactions, performance KPIs and data patterns. LiveMon will help you detect and solve any anomalies, optimize your infrastructure utilization, and correlate events.</p><p>Packaging internal and external monitoring along with log analysis and storage, LiveMon is the only SaaS solution that gives you 360° end-to-end visibility of your Information System. Thanks to Livemon you no longer have to waste valuable time digging into your IT to find the right information, everything is visible in a single glance.</p>"
   },
   {
