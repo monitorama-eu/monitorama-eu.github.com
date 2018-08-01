@@ -124,7 +124,7 @@ var rawSpeakers = [
     "name": "Alexis Lê-Quôc",
     "github": "alq666",
     "twitter": "alq",
-    "bio": "",
+    "bio": "Alexis brings a strong focus on technical elegance and operational efficiency to Datadog. Prior to founding Datadog, Alexis Lê-Quôc served as the Director of Operations for Wireless Generation where he built the team and infrastructure that served more than 4 million students in 49 states. As a member of the original “devops” movement, Alexis spent several years as a software engineer at IBM Research, Neomeo and Orange. Alexis holds an MS, CS from the Ecole Centrale Paris and has presented sessions on cloud monitoring and server performance at conferences including AWS re:Invent, Monitorama US, DevOpsDays, Velocity, and PyCon.",
     "title": "A thousand and one postmortems: lessons learned from running complex systems at scale",
     "abstract": "",
     "video": "",
