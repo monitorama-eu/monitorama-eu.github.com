@@ -40,7 +40,7 @@ var sponsors = [
   },
   {
     "name": "signalfx",
-    "enabled": false,
+    "enabled": true,
     "url": "https://signalfx.com/",
     "width": 175,
     "bio": "<p>SignalFx is a leader in real-time operational intelligence for data-driven DevOps. The service discovers and collects metrics across every component in the cloud, replacing traditional point tools and providing real-time visibility into today’s dynamic environments. Leveraging the massively scalable SignalFx platform, the SaaS service is optimized for container and microservices based architectures and provides powerful visualization, proactive alerting, and collaborative triage capabilities across organizations of all sizes. SignalFx is used by Fortune 500 enterprises across financial services, apparel, industrials, telecommunications, media, and by web-scale players like Yelp, Hubspot, Acquia, and Kayak.</p>",
@@ -54,7 +54,7 @@ var sponsors = [
   },
   {
     "name": "stackpath",
-    "enabled": false,
+    "enabled": true,
     "url": "https://www.stackpath.com/",
     "bio": "<p>Protect your edge.&trade;</p><p>StackPath is a platform of secure edge services that enables developers to protect, accelerate, and innovate cloud properties ranging from websites to media delivery and IoT services. With an innovative global edge network infrastructure, StackPath delivers enterprise-grade security and performance in a frictionless, on-demand platform with cloud-scale control and flexibility. More than one million customers, including early-stage and Fortune 100 companies, use StackPath services. StackPath is headquartered in Dallas and has offices across the U.S. and around the world. For more information, visit <a href=\"https://www.stackpath.com/\">stackpath.com</a> and follow StackPath at <a href=\"https://www.facebook.com/StackPathLLC/\">www.fb.com/stackpathllc</a> and <a href=\"https://twitter.com/stackpath\">www.twitter.com/stackpath</a>.</p>"
   },
