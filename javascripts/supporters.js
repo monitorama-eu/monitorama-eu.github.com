@@ -60,9 +60,9 @@ var sponsors = [
   },
   {
     "name": "bleemeo",
-    "enabled": false,
+    "enabled": true,
     "url": "https://bleemeo.com/",
-    "bio": "<p></p>"
+    "bio": "<p>Bleemeo offers a cloud based monitoring solution for your server infrastructure, containers and applications. Bleemeo agent can be deployed in 30s on servers and you get a real-time web dashboard to measure infrastructure availability and performance without manual configuration: system metrics (for physical and cloud servers),services (database, web server, etc.), containers: more than <a href=\"https://bleemeo.com/features/integrations/\">60 services are automatically discovered</a> by our agent.</p><p>Bleemeo allows you to define stacks to track your elastic workloads where containers/servers can dynamically be added and removed. The Bleemeo solution supports Linux (Ubuntu, CentOS, RedHat) and Windows systems and integrated metrics from Amazon Web Services.</p><p>Start your trial for free at <a href=\"https://bleemeo.com/trial/\">https://bleemeo.com/trial/</a>.</p>"
   },
   {
     "name": "icinga",
