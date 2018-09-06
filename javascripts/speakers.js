@@ -18,7 +18,7 @@ var rawSpeakers = [
     "title": "You don’t look like an Engineer",
     "abstract": "",
     "video": "",
-    "slides": "",
+    "slides": "https://speakerdeck.com/monicasarbu/you-dont-look-like-an-engineer-2",
     "hash": "3be036b2f55557ceacebf476970662de",
   },
   {
@@ -29,7 +29,7 @@ var rawSpeakers = [
     "title": "Prometheus for Practitioners: Migrating to Prometheus at Fastly",
     "abstract": "",
     "video": "",
-    "slides": "",
+    "slides": "https://speakerdeck.com/ickymettle/prometheus-for-practitioners-migrating-to-prometheus-at-fastly",
     "hash": "25ea167ab7dc63f80f3506af5aab2641",
   },
   {
@@ -62,7 +62,7 @@ var rawSpeakers = [
     "title": "Rethinking UX for AI-driven Monitoring Tools",
     "abstract": "",
     "video": "",
-    "slides": "",
+    "slides": "https://github.com/DataDog/MonitoramaEUDesignForAI",
     "hash": "20be221be9bb28194db393512d90b2db",
   },
   {
@@ -95,7 +95,7 @@ var rawSpeakers = [
     "title": "Monitoring what you don't own",
     "abstract": "",
     "video": "",
-    "slides": "",
+    "slides": "https://sdstrowes.co.uk/talks/20180904-sdstrowes-monitorama.pdf",
     "hash": "718c7bd98260e95440736ec0ee43195c",
   },
   {
@@ -117,7 +117,7 @@ var rawSpeakers = [
     "title": "Unquantified Serendipity: Diversity in Development",
     "abstract": "",
     "video": "",
-    "slides": "",
+    "slides": "https://github.com/quintessence/presentations/tree/master/unquantified-serendipity",
     "hash": "8b9eab4b464b091b65578f026a4f8161",
   },
   {
@@ -172,7 +172,7 @@ var rawSpeakers = [
     "title": "How to build observability into a serverless application",
     "abstract": "",
     "video": "",
-    "slides": "",
+    "slides": "https://www.slideshare.net/theburningmonk/how-to-build-observability-into-a-serverless-application",
     "hash": "0bbaed5a18c131ba152cf566e1becaf8",
   },
   {
@@ -183,7 +183,7 @@ var rawSpeakers = [
     "title": "How AI Helps Observe Decentralised Systems",
     "abstract": "",
     "video": "",
-    "slides": "",
+    "slides": "https://www.slideshare.net/DominicWellington/how-ai-helps-observe-decentralised-systems",
     "hash": "4c2372bf1a00d68eff1c66dde75b107e",
   },
   {
