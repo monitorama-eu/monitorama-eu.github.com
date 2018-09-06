@@ -216,7 +216,7 @@ var rawSpeakers = [
     "title": "Incremental-decremental Methods For Real-Time Monitoring",
     "abstract": "",
     "video": "",
-    "slides": "",
+    "slides": "https://www.slideshare.net/secret/Bl0af5OKPy3eYP",
     "hash": "2c45622ba5e0df7c693b15107d1ef3f5",
   },
 ]
