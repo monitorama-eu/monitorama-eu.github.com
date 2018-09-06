@@ -40,7 +40,7 @@ var rawSpeakers = [
     "title": "What the NTSB teaches us about incident management & postmortems",
     "abstract": "",
     "video": "",
-    "slides": "",
+    "slides": "https://www.slideshare.net/MichaelKehoe3/what-the-ntsb-teaches-us-about-incident-management-postmortems",
     "hash": "5fc10918108effbbceea324480314c8a",
   },
   {
@@ -51,7 +51,7 @@ var rawSpeakers = [
     "title": "What the NTSB teaches us about incident management & postmortems",
     "abstract": "",
     "video": "",
-    "slides": "",
+    "slides": "https://www.slideshare.net/MichaelKehoe3/what-the-ntsb-teaches-us-about-incident-management-postmortems",
     "hash": "fae3ee6c242dcdf97b19fc1d6c596bb0",
   },
   {
