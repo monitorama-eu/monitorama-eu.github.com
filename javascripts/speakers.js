@@ -153,17 +153,17 @@ var rawSpeakers = [
     "slides": "",
     "hash": "4a0b868a39e8239c450fe7f6ec34a844",
   },
-  {
+/*  {
     "name": "Bram Vogelaar",
     "github": "attachmentgenie",
     "twitter": "",
-    "bio": "Bram spent the first part of his career as a Molecular Biologist , he then moved on to supporting his peers by building tools and platforms for them with a lot of Open Source technologies, after which he joined Inuits to focus on helping more people to deliver their software with Open Source tools.",
+    "bio": "Bram spent the first part of his career as a Molecular Biologist, he then moved on to supporting his peers by building tools and platforms for them with a lot of Open Source technologies, after which he joined Inuits to focus on helping more people to deliver their software with Open Source tools.",
     "title": "Gamification of Chaos Testing",
     "abstract": "",
     "video": "",
     "slides": "",
     "hash": "ff1fa420f55d97bcd00c6cdf7faf9db7",
-  },
+  }, */
   {
     "name": "Yan Cui",
     "github": "theburningmonk",
