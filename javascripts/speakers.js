@@ -73,7 +73,7 @@ var rawSpeakers = [
     "title": "Is observability good for our brain? How about post-mortems?",
     "abstract": "",
     "video": "",
-    "slides": "",
+    "slides": "https://www.slideshare.net/sematext/is-observability-good-for-your-brain",
     "hash": "2164d281261ff5f5a239a9ccd5bdcad4",
   },
   {
@@ -84,7 +84,7 @@ var rawSpeakers = [
     "title": "Is observability good for our brain? How about post-mortems?",
     "abstract": "",
     "video": "",
-    "slides": "",
+    "slides": "https://www.slideshare.net/sematext/is-observability-good-for-your-brain",
     "hash": "d05d7fbddd69c91eefaad0b9ec624111",
   },
   {
