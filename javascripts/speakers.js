@@ -205,7 +205,7 @@ var rawSpeakers = [
     "title": "Self-hosted & open-source time series analysis for your infrastructure",
     "abstract": "",
     "video": "",
-    "slides": "",
+    "slides": "https://github.com/hastic/hastic-server",
     "hash": "185839e3593c3b1052df0a96497b2470",
   },
   {
