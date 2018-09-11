@@ -128,7 +128,7 @@ var rawSpeakers = [
     "title": "A thousand and one postmortems: lessons learned from running complex systems at scale",
     "abstract": "",
     "video": "",
-    "slides": "",
+    "slides": "https://speakerdeck.com/alq/1-001-postmortems-lessons-learned-from-running-complex-systems-at-scale",
     "hash": "c3a42f6c504337f560cb69b9c37df659",
   },
   {
