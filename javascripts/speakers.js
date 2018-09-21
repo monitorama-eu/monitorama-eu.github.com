@@ -139,7 +139,7 @@ var rawSpeakers = [
     "title": "Building a monitoring strategy and gaining consensus",
     "abstract": "",
     "video": "",
-    "slides": "",
+    "slides": "https://speakerdeck.com/gparker/enterprise-monitoring-at-scb-building-a-strategy",
     "hash": "9deffad3d1d1bfcbf50da0932ee857ae",
   },
   {
@@ -150,7 +150,7 @@ var rawSpeakers = [
     "title": "Building a monitoring strategy and gaining consensus",
     "abstract": "",
     "video": "",
-    "slides": "",
+    "slides": "https://speakerdeck.com/gparker/enterprise-monitoring-at-scb-building-a-strategy",
     "hash": "4a0b868a39e8239c450fe7f6ec34a844",
   },
 /*  {
